@@ -1,0 +1,931 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8b023652-20db-48ce-ad53-bc2d9a4e5dd4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "charger:STM32G031G8U6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STM32G031G8U6"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:UFQFPN-28_L4.0-W4.0-P0.50-BL"
+				(at 0 -24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics-STM32G031G8U6_C432211.html"
+				(at 0 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ST(意法半导体)"
+				(at 0 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "STM32G031G8U6"
+				(at 0 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C432211"
+				(at 0 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ST Microelectronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "STM32G031G8U6_0_1"
+				(rectangle
+					(start -21.59 19.05)
+					(end 21.59 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -20.32 17.78)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 16.51 0)
+					(length 2.54)
+					(name "PC14-OSC32IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 13.97 0)
+					(length 2.54)
+					(name "PC15-OSC32OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 11.43 0)
+					(length 2.54)
+					(name "VDD/VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 8.89 0)
+					(length 2.54)
+					(name "VSS/VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 6.35 0)
+					(length 2.54)
+					(name "PF2-NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 3.81 0)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 1.27 0)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 -1.27 0)
+					(length 2.54)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 -3.81 0)
+					(length 2.54)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 -6.35 0)
+					(length 2.54)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 -8.89 0)
+					(length 2.54)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 -11.43 0)
+					(length 2.54)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 -13.97 0)
+					(length 2.54)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -24.13 -16.51 0)
+					(length 2.54)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 -16.51 180)
+					(length 2.54)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 -13.97 180)
+					(length 2.54)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 -11.43 180)
+					(length 2.54)
+					(name "PC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 -8.89 180)
+					(length 2.54)
+					(name "PA11[PA9]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 -6.35 180)
+					(length 2.54)
+					(name "PA12[PA10]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 -3.81 180)
+					(length 2.54)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 -1.27 180)
+					(length 2.54)
+					(name "PA14-BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 1.27 180)
+					(length 2.54)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 3.81 180)
+					(length 2.54)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 6.35 180)
+					(length 2.54)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 8.89 180)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 11.43 180)
+					(length 2.54)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 13.97 180)
+					(length 2.54)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 24.13 16.51 180)
+					(length 2.54)
+					(name "PB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "charger:STM32G031G8U6")
+		(at 95.25 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a1f9097-1344-4bc9-8bed-0ec36be13320")
+		(property "Reference" "U1"
+			(at 95.25 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32G031G8U6"
+			(at 95.25 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:UFQFPN-28_L4.0-W4.0-P0.50-BL"
+			(at 95.25 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/ST-Microelectronics_STMicroelectronics-STM32G031G8U6_C432211.html"
+			(at 95.25 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ST(意法半导体)"
+			(at 95.25 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "STM32G031G8U6"
+			(at 95.25 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C432211"
+			(at 95.25 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc8b7168-5c19-4aa7-9d85-b752549400f9")
+		)
+		(pin "2"
+			(uuid "40e13814-944a-4017-a21d-577408ffc508")
+		)
+		(pin "3"
+			(uuid "9c4b9112-fa18-499f-9708-5c8e591d3dcb")
+		)
+		(pin "4"
+			(uuid "a2b619d3-b51c-43be-bf99-47e78d6fd315")
+		)
+		(pin "5"
+			(uuid "f8f484e2-7a24-4907-9b0c-e4307f16d74c")
+		)
+		(pin "6"
+			(uuid "4c0894da-5723-4000-9777-62e7ab6b7a77")
+		)
+		(pin "7"
+			(uuid "e493e9a9-cfa8-43d0-b953-3fbf8a1f9a2b")
+		)
+		(pin "8"
+			(uuid "d56baaab-6103-441d-b39b-442bb63ecfac")
+		)
+		(pin "9"
+			(uuid "95b8431d-f610-4cda-b7ba-a41dc69b74b9")
+		)
+		(pin "10"
+			(uuid "a3213515-89f9-48b9-9c92-3a1122a58d1f")
+		)
+		(pin "11"
+			(uuid "b3335037-6596-4a0e-b081-3c1069b17c26")
+		)
+		(pin "12"
+			(uuid "b55974ae-661c-4c65-808d-7a1e5f8dc480")
+		)
+		(pin "13"
+			(uuid "afb046d3-60d0-479d-b3ca-f0adb5771d4b")
+		)
+		(pin "14"
+			(uuid "bcbd6af2-f1c4-4ec0-a2bb-f54686d29dd3")
+		)
+		(pin "15"
+			(uuid "d01c6b53-e4d7-4a19-a714-89fb733f7611")
+		)
+		(pin "16"
+			(uuid "cf71d571-5b50-4ac5-b402-9b190af485a4")
+		)
+		(pin "17"
+			(uuid "64a278de-da0c-44d9-9807-986fa58dbf22")
+		)
+		(pin "18"
+			(uuid "f21e0bb1-adc7-4b01-a003-62c18c7d13e7")
+		)
+		(pin "19"
+			(uuid "f563d15d-2d66-4fbe-8686-bc04b688dd42")
+		)
+		(pin "20"
+			(uuid "4aede235-6e86-4c86-8d7e-a90180254ab2")
+		)
+		(pin "21"
+			(uuid "47abbe35-f3c4-46ce-aca6-724e3d6bcd2f")
+		)
+		(pin "22"
+			(uuid "5e34c5a2-2646-4601-93e4-22fd06af4b0b")
+		)
+		(pin "23"
+			(uuid "09f690f4-6f76-4265-bccf-1e6784c61b2e")
+		)
+		(pin "24"
+			(uuid "9775f92b-f2e0-49e7-9b8d-a383edee9596")
+		)
+		(pin "25"
+			(uuid "ff72b630-b12e-45f6-90b2-cd3eef7379e2")
+		)
+		(pin "26"
+			(uuid "668ba582-72d6-4c7f-9bb2-174d27db557a")
+		)
+		(pin "27"
+			(uuid "bb6ab625-8d35-4a2a-91e1-16a6b55f74b4")
+		)
+		(pin "28"
+			(uuid "664339d4-5ed2-4d0d-bc21-637f009f1289")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.56 160.29)
+		(size 27 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "098c0cf2-1158-4d75-9e4c-d56dfe6be0a0")
+		(property "Sheetname" "power"
+			(at 31.56 159.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 31.56 178.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 160.02)
+		(size 27 18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2f398d92-68d1-416e-a954-bbf2a8f3282d")
+		(property "Sheetname" "loop"
+			(at 67.31 159.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loop.kicad_sch"
+			(at 67.31 178.6046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
