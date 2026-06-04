@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d8a792da-fa10-45a7-a576-a17949b4fec8")
+	(paper "A4")
+	(lib_symbols)
+	(text "VBUS -> 3.3v\n"
+		(exclude_from_sim no)
+		(at 42.926 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ffd1895a-fa51-4f63-98cf-8984df724a48")
+	)
+)

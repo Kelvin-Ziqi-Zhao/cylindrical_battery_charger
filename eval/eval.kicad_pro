@@ -707,7 +707,7 @@
         "uuid": "8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
       }
     ],
-    "used_designators": "U3,#PWR10-13,D1,C10-12,R8-14",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -722,6 +722,18 @@
     [
       "2f398d92-68d1-416e-a954-bbf2a8f3282d",
       "loop"
+    ],
+    [
+      "e5450d34-e34e-454c-8387-40410830d96b",
+      "aux_power_rail"
+    ],
+    [
+      "956e382c-4efc-492f-b828-7c0ac2cccd62",
+      "usb_pd"
+    ],
+    [
+      "cc11e5a9-bb51-4ba8-a74b-0d2f2f060f5d",
+      "screen"
     ]
   ],
   "text_variables": {},
