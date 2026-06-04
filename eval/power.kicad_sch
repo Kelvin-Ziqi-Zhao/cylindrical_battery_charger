@@ -2338,6 +2338,12 @@
 		(uuid "0220b806-4b28-4f91-909f-d795ae7ceef5")
 	)
 	(junction
+		(at 234.95 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0907d798-44bd-4f9b-8818-60fd7b63367c")
+	)
+	(junction
 		(at 59.69 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2683,6 +2689,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 139.7) (xy 234.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bcffa5-8f38-4993-b778-4f56c72917a0")
+	)
+	(wire
+		(pts
 			(xy 125.73 93.98) (xy 125.73 96.52)
 		)
 		(stroke
@@ -2843,6 +2859,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 134.62) (xy 238.76 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462a405c-e6ee-4bb5-b0dd-dbb68c329a63")
+	)
+	(wire
+		(pts
 			(xy 179.07 43.18) (xy 182.88 43.18)
 		)
 		(stroke
@@ -2930,6 +2956,16 @@
 			(type default)
 		)
 		(uuid "5cdc332b-bc4e-4fb3-9ee0-25c63372b56f")
+	)
+	(wire
+		(pts
+			(xy 238.76 139.7) (xy 234.95 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d234518-3e25-4d60-9a3a-16a43ac7db51")
 	)
 	(wire
 		(pts
@@ -3203,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 134.62) (xy 238.76 134.62)
+			(xy 220.98 134.62) (xy 234.95 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8207,6 +8243,17 @@
 		)
 		(uuid "2a209bd0-4848-4ffc-af0c-afcfd1b7f203")
 	)
+	(hierarchical_label "I_OUT_MON"
+		(shape output)
+		(at 238.76 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b35db4a-c225-4e87-a74f-72537f38021d")
+	)
 	(hierarchical_label "EN"
 		(shape input)
 		(at 29.21 151.13 90)
@@ -8217,6 +8264,17 @@
 			(justify left)
 		)
 		(uuid "33c2dc85-7a78-4a43-9214-f540126d1cb5")
+	)
+	(hierarchical_label "V_IN_MON"
+		(shape output)
+		(at 229.87 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34a42a08-da29-4d3f-ae1a-764ead51881c")
 	)
 	(hierarchical_label "EN"
 		(shape input)
@@ -8285,7 +8343,7 @@
 		(uuid "a8ec51d9-4947-4cb7-99b9-4f3c3ae081bc")
 	)
 	(hierarchical_label "I_IN_MON"
-		(shape input)
+		(shape output)
 		(at 234.95 40.64 0)
 		(effects
 			(font
@@ -8306,8 +8364,8 @@
 		)
 		(uuid "b57e8322-1bce-4ecd-9550-601a755bc692")
 	)
-	(hierarchical_label "I_OUT_MON"
-		(shape input)
+	(hierarchical_label "I_OUT_MON_LOOP"
+		(shape output)
 		(at 238.76 134.62 0)
 		(effects
 			(font
@@ -8316,6 +8374,17 @@
 			(justify left)
 		)
 		(uuid "bb27ce41-c4a7-4592-974c-2b8a37727771")
+	)
+	(hierarchical_label "V_OUT_MON"
+		(shape output)
+		(at 229.87 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8cc0ea5-8e04-4658-88db-27555247748b")
 	)
 	(symbol
 		(lib_id "power:GNDA")
