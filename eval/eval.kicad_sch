@@ -4195,6 +4195,52 @@
 		)
 	)
 	(sheet
+		(at 174 132)
+		(size 25 14)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6dc5225f-c89b-40d1-9470-7379c2fb3f04")
+		(property "Sheetname" "can"
+			(at 174 131.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 174 146.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 208.28 101.6)
 		(size 23 18)
 		(exclude_from_sim no)
@@ -4230,6 +4276,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 208.28 105.41 180)
+			(uuid "7c852a85-3fca-4cf8-812f-f2a421a7e664")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 208.28 107.95 180)
+			(uuid "a810353b-1d17-4b78-a679-cd8e514b329c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DEBUG" output
+			(at 231.28 105.41 0)
+			(uuid "4e8f723f-d383-43e4-8e50-77ff6dc9f70b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAULT" output
+			(at 231.28 107.95 0)
+			(uuid "3a73d2a8-226f-4aed-b24d-8367a8900f48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ORIENT" output
+			(at 231.28 110.49 0)
+			(uuid "2546f098-36ef-43f1-a172-2149dd613471")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 208.28 111.76 180)
+			(uuid "69b1177e-4437-4e1f-889b-8d8a3b3dc39d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" input
+			(at 208.28 114.3 180)
+			(uuid "4ddb68fd-0f5e-4f7e-bd27-789835e80741")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

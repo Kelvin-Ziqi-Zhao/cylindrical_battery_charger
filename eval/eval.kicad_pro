@@ -723,7 +723,7 @@
         "uuid": "8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
       }
     ],
-    "used_designators": "USBC1,L2-3,D2-6,Q3,C14,C16,C22-29,#PWR17,#PWR29-57,R16,R19,R25-31,U1,U10-13",
+    "used_designators": "#PWR65-72,C30-32,R39-43,Q4,U14",
     "variants": []
   },
   "sheets": [
@@ -750,6 +750,10 @@
     [
       "cc11e5a9-bb51-4ba8-a74b-0d2f2f060f5d",
       "screen"
+    ],
+    [
+      "6dc5225f-c89b-40d1-9470-7379c2fb3f04",
+      "can"
     ]
   ],
   "text_variables": {},
