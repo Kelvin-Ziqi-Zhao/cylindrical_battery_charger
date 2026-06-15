@@ -2297,6 +2297,10 @@
 		(color 0 0 0 0)
 		(uuid "ab3f87d1-eaf2-47d8-8d8d-a7a3e0dea26b")
 	)
+	(no_connect
+		(at 232.41 144.78)
+		(uuid "8408caf5-c99a-435f-aff4-76c9627aacdc")
+	)
 	(wire
 		(pts
 			(xy 88.9 43.18) (xy 97.79 43.18)
@@ -2419,6 +2423,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 139.7) (xy 219.71 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b2c7fb-ba9c-4548-ba49-4d75f3ba7e86")
+	)
+	(wire
+		(pts
 			(xy 34.29 59.69) (xy 52.07 59.69)
 		)
 		(stroke
@@ -2426,6 +2440,16 @@
 			(type default)
 		)
 		(uuid "acfe9af4-5600-4132-999d-9c5baa8380e4")
+	)
+	(wire
+		(pts
+			(xy 217.17 134.62) (xy 217.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad9a7611-8b86-4504-aee9-df9d712196b1")
 	)
 	(wire
 		(pts
@@ -2466,6 +2490,16 @@
 			(type default)
 		)
 		(uuid "dafe83e4-2544-4c20-a35a-63df9890dfa3")
+	)
+	(wire
+		(pts
+			(xy 217.17 144.78) (xy 219.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91a8069-7ffd-44ca-bdff-09e1ea12da42")
 	)
 	(wire
 		(pts
@@ -2577,6 +2611,16 @@
 		)
 		(uuid "37563527-f2df-4ffc-897a-2eb6dee2b1f6")
 	)
+	(label "FDCAN1_RX"
+		(at 175.26 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3762bb61-6bc9-4458-9c4c-4f941c3f77a2")
+	)
 	(label "UART1_TX"
 		(at 120.65 87.63 0)
 		(effects
@@ -2667,6 +2711,26 @@
 		)
 		(uuid "75774d57-5c66-442a-9195-2afbeee453ef")
 	)
+	(label "I2C_SDA"
+		(at 218.44 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e2ff5c4-4820-450d-a0f6-9dd4100f20f2")
+	)
+	(label "FDCAN1_TX"
+		(at 175.26 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8148054d-9df1-4429-9958-829a13ef2de6")
+	)
 	(label "BUCK_SYNC"
 		(at 259.08 63.5 0)
 		(effects
@@ -2678,7 +2742,7 @@
 		(uuid "84ed85c6-7f89-4f12-912f-fcdb2586f318")
 	)
 	(label "SYS_SWDCLK"
-		(at 255.27 148.59 0)
+		(at 232.41 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2716,6 +2780,16 @@
 			(justify left bottom)
 		)
 		(uuid "98caa761-4550-4f23-998b-96fcab3d6d18")
+	)
+	(label "USB_D+"
+		(at 218.44 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a00cd5bc-a57f-4106-a585-d95160eb677e")
 	)
 	(label "I2C_SCL"
 		(at 107.95 110.49 0)
@@ -2758,6 +2832,16 @@
 		(uuid "b28c3cb1-a065-4834-9ee9-ce3ae748073a")
 	)
 	(label "USB_D-"
+		(at 218.44 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2ecb0a9-4b41-4724-aed4-d06fb9c0fe5d")
+	)
+	(label "USB_D-"
 		(at 107.95 83.82 0)
 		(effects
 			(font
@@ -2767,8 +2851,8 @@
 		)
 		(uuid "cdd9b456-b88c-4111-97f2-43664b7bfe2b")
 	)
-	(label "RST"
-		(at 257.81 140.97 180)
+	(label "~{RST}"
+		(at 219.71 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2807,6 +2891,16 @@
 		)
 		(uuid "d6f43902-40b9-4c33-be2a-cc844b096d4a")
 	)
+	(label "I2C_SCL"
+		(at 218.44 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec8a1c21-bff1-4748-a3e5-720bbf48f413")
+	)
 	(label "SPI2_MISO"
 		(at 107.95 138.43 0)
 		(effects
@@ -2818,7 +2912,7 @@
 		(uuid "ed664faf-ae15-4ff1-bbd0-ecf7b62d7dfc")
 	)
 	(label "SYS_SWDIO"
-		(at 255.27 146.05 0)
+		(at 232.41 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3444,7 +3538,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TC2030")
-		(at 234.95 146.05 0)
+		(at 224.79 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3455,7 +3549,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a223f32-5cb9-48f2-8503-07130168b2de")
 		(property "Reference" "J1"
-			(at 236.22 133.35 0)
+			(at 226.06 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3465,7 +3559,7 @@
 			)
 		)
 		(property "Value" "TC2030"
-			(at 236.22 135.89 0)
+			(at 226.06 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3475,7 +3569,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 236.22 146.05 0)
+			(at 226.06 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3486,7 +3580,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
-			(at 236.22 146.05 0)
+			(at 226.06 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,7 +3591,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect’s 6-pins connector"
-			(at 234.95 146.05 0)
+			(at 224.79 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3536,7 +3630,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 250.19 147.32 0)
+		(at 217.17 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3547,7 +3641,7 @@
 		(fields_autoplaced yes)
 		(uuid "a82444d3-4f58-47ad-a882-4d952096f000")
 		(property "Reference" "#PWR028"
-			(at 250.19 153.67 0)
+			(at 217.17 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3558,17 +3652,18 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 250.19 151.13 0)
+			(at 214.63 145.8596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 147.32 0)
+			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3579,7 +3674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 147.32 0)
+			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +3685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 250.19 147.32 0)
+			(at 217.17 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,7 +3791,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 250.19 140.97 0)
+		(at 217.17 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3707,7 +3802,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1e4a179-3b79-4d1f-8964-3378897b5e3d")
 		(property "Reference" "#PWR027"
-			(at 250.19 144.78 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,17 +3813,18 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 250.19 135.89 0)
+			(at 219.71 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 140.97 0)
+			(at 217.17 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3739,7 +3835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 140.97 0)
+			(at 217.17 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,7 +3846,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 250.19 140.97 0)
+			(at 217.17 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4195,8 +4291,8 @@
 		)
 	)
 	(sheet
-		(at 174 132)
-		(size 25 14)
+		(at 175.26 132.08)
+		(size 25.4 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4211,7 +4307,7 @@
 		)
 		(uuid "6dc5225f-c89b-40d1-9470-7379c2fb3f04")
 		(property "Sheetname" "can"
-			(at 174 131.2884 0)
+			(at 175.26 131.3684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4222,7 +4318,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 174 146.5846 0)
+			(at 175.26 146.6646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4230,6 +4326,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 175.26 134.62 180)
+			(uuid "34ca20cd-e7e8-4fd9-9799-0d9d2bec4ac5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_STB" input
+			(at 175.26 143.51 180)
+			(uuid "27e7a5d0-b917-477b-b2ec-d84663b90dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 175.26 137.16 180)
+			(uuid "ee683271-b0d0-445d-b279-fd5c36784572")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4241,8 +4367,8 @@
 		)
 	)
 	(sheet
-		(at 208.28 101.6)
-		(size 23 18)
+		(at 218.44 101.6)
+		(size 22.86 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4257,7 +4383,7 @@
 		)
 		(uuid "956e382c-4efc-492f-b828-7c0ac2cccd62")
 		(property "Sheetname" "usb_pd"
-			(at 208.28 100.8884 0)
+			(at 218.44 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4268,7 +4394,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 208.28 120.1846 0)
+			(at 218.44 120.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4279,7 +4405,7 @@
 			)
 		)
 		(pin "D+" bidirectional
-			(at 208.28 105.41 180)
+			(at 218.44 105.41 180)
 			(uuid "7c852a85-3fca-4cf8-812f-f2a421a7e664")
 			(effects
 				(font
@@ -4289,7 +4415,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 208.28 107.95 180)
+			(at 218.44 107.95 180)
 			(uuid "a810353b-1d17-4b78-a679-cd8e514b329c")
 			(effects
 				(font
@@ -4299,7 +4425,7 @@
 			)
 		)
 		(pin "DEBUG" output
-			(at 231.28 105.41 0)
+			(at 241.3 105.41 0)
 			(uuid "4e8f723f-d383-43e4-8e50-77ff6dc9f70b")
 			(effects
 				(font
@@ -4309,7 +4435,7 @@
 			)
 		)
 		(pin "FAULT" output
-			(at 231.28 107.95 0)
+			(at 241.3 107.95 0)
 			(uuid "3a73d2a8-226f-4aed-b24d-8367a8900f48")
 			(effects
 				(font
@@ -4319,7 +4445,7 @@
 			)
 		)
 		(pin "ORIENT" output
-			(at 231.28 110.49 0)
+			(at 241.3 110.49 0)
 			(uuid "2546f098-36ef-43f1-a172-2149dd613471")
 			(effects
 				(font
@@ -4329,7 +4455,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 208.28 111.76 180)
+			(at 218.44 111.76 180)
 			(uuid "69b1177e-4437-4e1f-889b-8d8a3b3dc39d")
 			(effects
 				(font
@@ -4339,7 +4465,7 @@
 			)
 		)
 		(pin "SDA" input
-			(at 208.28 114.3 180)
+			(at 218.44 114.3 180)
 			(uuid "4ddb68fd-0f5e-4f7e-bd27-789835e80741")
 			(effects
 				(font
@@ -4357,7 +4483,7 @@
 		)
 	)
 	(sheet
-		(at 238.84 100.93)
+		(at 257.35 101.15)
 		(size 20 18)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4373,7 +4499,7 @@
 		)
 		(uuid "cc11e5a9-bb51-4ba8-a74b-0d2f2f060f5d")
 		(property "Sheetname" "screen"
-			(at 238.84 100.2184 0)
+			(at 257.35 100.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4384,7 +4510,7 @@
 			)
 		)
 		(property "Sheetfile" "screen.kicad_sch"
-			(at 238.84 119.5146 0)
+			(at 257.35 119.7346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
