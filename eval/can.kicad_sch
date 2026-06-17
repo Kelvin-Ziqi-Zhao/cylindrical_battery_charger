@@ -146,14 +146,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:TCAN3413DR"
+		(symbol "EasyEDA:TCAN1044VDRBRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 13.97 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -162,8 +162,8 @@
 					)
 				)
 			)
-			(property "Value" "TCAN3413DR"
-				(at 0 -13.97 0)
+			(property "Value" "TCAN1044VDRBRQ1"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -172,8 +172,8 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1"
-				(at 0 -16.51 0)
+			(property "Footprint" "EasyEDA:VSON-8_L3.0-W3.0-P0.65-BR-EP"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -183,8 +183,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C22433320.pdf"
-				(at 0 -19.05 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5215851.pdf"
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -206,7 +206,7 @@
 				)
 			)
 			(property "Manufacturer" "TI(德州仪器)"
-				(at 0 -21.59 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -216,8 +216,8 @@
 					)
 				)
 			)
-			(property "MPN" "TCAN3413DR"
-				(at 0 -24.13 0)
+			(property "MPN" "TCAN1044VDRBRQ1"
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -227,8 +227,8 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C22433320"
-				(at 0 -26.67 0)
+			(property "LCSC Part" "C5215851"
+				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -238,7 +238,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "CAN Transceivers"
+			(property "ki_keywords" "CAN ICs"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -249,10 +249,10 @@
 					)
 				)
 			)
-			(symbol "TCAN3413DR_0_1"
+			(symbol "TCAN1044VDRBRQ1_0_1"
 				(rectangle
-					(start -7.62 11.43)
-					(end 7.62 -11.43)
+					(start -8.89 7.62)
+					(end 8.89 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -262,7 +262,7 @@
 					)
 				)
 				(circle
-					(center -6.35 10.16)
+					(center -7.62 3.81)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -273,7 +273,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -6.35 0)
+					(at -11.43 2.54 0)
 					(length 2.54)
 					(name "TXD"
 						(effects
@@ -291,7 +291,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 -8.89 180)
+					(at -11.43 0 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -309,7 +309,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 8.89 180)
+					(at -11.43 -2.54 0)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -327,7 +327,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -1.27 0)
+					(at -11.43 -5.08 0)
 					(length 2.54)
 					(name "RXD"
 						(effects
@@ -345,9 +345,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -8.89 0)
+					(at 11.43 -5.08 180)
 					(length 2.54)
-					(name "VIO"
+					(name "NC/VIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -363,7 +363,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 6.35 0)
+					(at 11.43 -2.54 180)
 					(length 2.54)
 					(name "CANL"
 						(effects
@@ -381,7 +381,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 8.89 0)
+					(at 11.43 0 180)
 					(length 2.54)
 					(name "CANH"
 						(effects
@@ -399,7 +399,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -3.81 0)
+					(at 11.43 2.54 180)
 					(length 2.54)
 					(name "STB"
 						(effects
@@ -409,6 +409,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -558,6 +576,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GNDD"
 			(power global)
 			(pin_numbers
@@ -685,387 +842,78 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CAN connector and protection"
-		(exclude_from_sim no)
-		(at 48.006 50.038 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "35db3f75-2bbe-4e54-95eb-3c8e6d336afa")
-	)
 	(junction
-		(at 48.26 60.96)
+		(at 148.59 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96dbf159-8423-46ba-8fcb-940d9d7c1aa1")
+		(uuid "e1c0096f-0b55-411f-a61e-cddfd840ad5f")
 	)
 	(wire
 		(pts
-			(xy 48.26 60.96) (xy 67.31 60.96)
+			(xy 125.73 52.07) (xy 148.59 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2775e7e6-1ea0-43b4-837e-c25a9450f793")
+		(uuid "9ec50ded-eefe-478f-a14a-42c130a77992")
 	)
 	(wire
 		(pts
-			(xy 91.44 66.04) (xy 87.63 66.04)
+			(xy 95.25 54.61) (xy 102.87 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bcf0ecb-56c4-4305-86ba-9aa46baa8b30")
+		(uuid "c5cc4975-91ce-4ef4-b544-ff05a2e143b1")
 	)
 	(wire
 		(pts
-			(xy 44.45 60.96) (xy 48.26 60.96)
+			(xy 152.4 52.07) (xy 148.59 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77da2001-12e0-4477-a11d-b7ec68dd69ca")
-	)
-	(wire
-		(pts
-			(xy 92.71 48.26) (xy 87.63 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d1c891-971d-447d-bda6-aabebae543e5")
-	)
-	(hierarchical_label "CAN_STB"
-		(shape input)
-		(at 44.45 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "973d6098-3290-4648-977c-cb941ad0c0f4")
-	)
-	(hierarchical_label "CAN_TX"
-		(shape input)
-		(at 67.31 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9ff2a7b5-4a9b-4a58-8736-e4b9e95360c0")
+		(uuid "f5a25f78-a173-4806-8010-b190f6a0e7cd")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
-		(at 67.31 58.42 180)
+		(at 102.87 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "fa0371eb-0669-4c6b-8edd-2cc8ffd20859")
+		(uuid "4ee7b882-53cb-4fab-a605-c7114cf66bc5")
 	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 48.26 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bd48239-846d-42f4-a2ff-d3de02170ef6")
-		(property "Reference" "#PWR075"
-			(at 48.26 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "CAN_TX"
+		(shape input)
+		(at 102.87 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "GNDD"
-			(at 48.26 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 48.26 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9e0a3ab-5827-4305-be2e-8c36db1b89c3")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "6f7b276c-0832-4c9c-a8a3-122230c9a5d5")
 	)
-	(symbol
-		(lib_id "EasyEDA:TCAN3413DR")
-		(at 77.47 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31992e22-1da7-4f1c-8786-81b85b78afe7")
-		(property "Reference" "U7"
-			(at 77.47 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "CAN_STB"
+		(shape input)
+		(at 152.4 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "TCAN3413DR"
-			(at 77.47 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL-1"
-			(at 77.47 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C22433320.pdf"
-			(at 77.47 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI(德州仪器)"
-			(at 77.47 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TCAN3413DR"
-			(at 77.47 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22433320"
-			(at 77.47 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "c8e254bc-f301-4a2e-8f90-89aecac802e1")
-		)
-		(pin "5"
-			(uuid "45c53a09-2458-4a1e-a15e-7b5546c92037")
-		)
-		(pin "1"
-			(uuid "2fdac231-319a-4aaf-97ed-336d16062f6a")
-		)
-		(pin "2"
-			(uuid "b4d67172-9742-4f60-8968-7ae8942dca12")
-		)
-		(pin "7"
-			(uuid "cf87c711-bc58-41ee-9660-50ef4b70e47d")
-		)
-		(pin "8"
-			(uuid "cdd5a1ca-2f95-4a38-aa05-cdb2e7cea20e")
-		)
-		(pin "6"
-			(uuid "75d6a0a3-4667-4b99-85a2-1d6ebfd1a557")
-		)
-		(pin "3"
-			(uuid "aa790453-ab1e-4ece-88e0-25e9a0a6874f")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 92.71 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70e1cba0-5210-4b45-8f3a-0d84223a5d87")
-		(property "Reference" "#PWR069"
-			(at 92.71 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3B"
-			(at 92.71 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 92.71 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ebedf95-e0c3-4937-a17a-07f81c944a8a")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "832a930f-5607-4150-9def-b180f8f9091c")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 63.5 180)
+		(at 148.59 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1074,9 +922,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ae744be9-618a-44b7-8d2e-5215f61ad67c")
+		(uuid "248a4a80-6fa7-470d-a7ae-0f06739e4a30")
 		(property "Reference" "R44"
-			(at 50.8 62.2299 0)
+			(at 151.13 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1087,7 +935,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 50.8 64.7699 0)
+			(at 151.13 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1098,7 +946,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 48.26 63.5 0)
+			(at 148.59 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1109,7 +957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 63.5 0)
+			(at 148.59 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1120,7 +968,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 48.26 63.5 0)
+			(at 148.59 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1131,10 +979,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6970c312-f782-4462-b198-f0669138e8d2")
+			(uuid "3dfdfdf4-024d-426c-9767-bf4bbd323e8c")
 		)
 		(pin "1"
-			(uuid "23fdd919-efb1-4a59-993e-f2335d17bed4")
+			(uuid "a64a05cf-8e6b-4d4e-bb94-0cbb3d8b1aa6")
 		)
 		(instances
 			(project "eval"
@@ -1146,8 +994,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 91.44 66.04 0)
+		(lib_id "EasyEDA:TCAN1044VDRBRQ1")
+		(at 114.3 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1156,9 +1004,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e3a87ae3-5ef1-41c0-b8db-4c51bb787d8f")
-		(property "Reference" "#PWR074"
-			(at 91.44 72.39 0)
+		(uuid "2cfa80f8-3fab-485a-9b89-4191adad56cd")
+		(property "Reference" "U15"
+			(at 114.3 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCAN1044VDRBRQ1"
+			(at 114.3 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:VSON-8_L3.0-W3.0-P0.65-BR-EP"
+			(at 114.3 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1168,8 +1036,9 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
-			(at 91.44 69.85 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5215851.pdf"
+			(at 114.3 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1178,8 +1047,122 @@
 				)
 			)
 		)
+		(property "Description" ""
+			(at 114.3 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 114.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TCAN1044VDRBRQ1"
+			(at 114.3 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5215851"
+			(at 114.3 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "71f1c49a-bbe8-47cc-a4cd-4fabecbb6666")
+		)
+		(pin "1"
+			(uuid "2ec6aa14-fc92-40a4-a293-a365d9a5eb86")
+		)
+		(pin "6"
+			(uuid "ad1e8bc8-28b7-4528-ba3c-80bffcab46ad")
+		)
+		(pin "3"
+			(uuid "fc6e2dcd-3f28-4a07-9016-4c949a487f56")
+		)
+		(pin "9"
+			(uuid "59a8d879-3a44-417c-9922-c727bdce15b4")
+		)
+		(pin "4"
+			(uuid "354ec510-a393-4f72-9d79-0a8d88c5eb24")
+		)
+		(pin "8"
+			(uuid "6bb53c22-4aa5-49b6-89c2-c3b00fd1e67b")
+		)
+		(pin "5"
+			(uuid "293ad28e-5c96-4568-8d1f-cfa0dc800c08")
+		)
+		(pin "2"
+			(uuid "aad555eb-120d-4398-b212-beeb8460da89")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 102.87 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a980223-dd22-4a94-91c4-4be1bf612cc3")
+		(property "Reference" "#PWR073"
+			(at 106.68 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 99.06 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 91.44 66.04 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1190,7 +1173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 66.04 0)
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1200,8 +1183,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 91.44 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 102.87 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1212,7 +1195,243 @@
 			)
 		)
 		(pin "1"
-			(uuid "4bee76eb-490e-4eb0-8117-818e7435e5e4")
+			(uuid "9982b870-2ddf-44f8-b258-756728eee5cd")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 125.73 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d0dbc9e-7f1a-417a-9fef-4fff4c322616")
+		(property "Reference" "#PWR084"
+			(at 132.08 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 129.54 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 125.73 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e2fddc7-1cab-4eef-aa97-ee98ceb066e0")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 125.73 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8420c0ae-4952-46b1-b652-834a7cbd52fa")
+		(property "Reference" "#PWR069"
+			(at 121.92 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 129.54 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 125.73 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55579fa1-34ad-412b-82ca-5ee1379270f2")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 95.25 54.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84a87689-364e-41a1-97eb-ff23397ceb5e")
+		(property "Reference" "#PWR074"
+			(at 88.9 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 91.44 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 95.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7149f025-5331-4dd4-a551-61ef86f9d07a")
 		)
 		(instances
 			(project "eval"
@@ -1224,8 +1443,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 67.31 66.04 90)
+		(lib_id "power:GNDD")
+		(at 148.59 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1234,9 +1453,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e990fa66-62dc-4c8c-808e-371b411a6a21")
-		(property "Reference" "#PWR073"
-			(at 71.12 66.04 0)
+		(uuid "dcf1b6d8-bbb3-430c-a7b6-cbfb4832b787")
+		(property "Reference" "#PWR075"
+			(at 148.59 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1246,19 +1465,18 @@
 				)
 			)
 		)
-		(property "Value" "+3V3B"
-			(at 63.5 66.0399 90)
+		(property "Value" "GNDD"
+			(at 148.59 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 66.04 0)
+			(at 148.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1269,7 +1487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 66.04 0)
+			(at 148.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1279,8 +1497,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 67.31 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 148.59 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1291,12 +1509,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1588986-410e-4fac-89c6-dd55bb0e92cb")
+			(uuid "66cb5241-dd1f-4d76-b68f-7cf0b63ed19b")
 		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
