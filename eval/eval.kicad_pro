@@ -740,7 +740,7 @@
         "uuid": "8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
       }
     ],
-    "used_designators": "U15,D5,#PWR69,#PWR73-75,#PWR79-84,C3,C44,R24,R44,R47,L2",
+    "used_designators": "#PWR13,#PWR19,#PWR31,C47-49,D4,Q7-8,U7,U16-17",
     "variants": []
   },
   "sheets": [
@@ -761,16 +761,20 @@
       "aux_power_rail"
     ],
     [
-      "956e382c-4efc-492f-b828-7c0ac2cccd62",
-      "usb_pd"
-    ],
-    [
       "cc11e5a9-bb51-4ba8-a74b-0d2f2f060f5d",
       "screen"
     ],
     [
       "6dc5225f-c89b-40d1-9470-7379c2fb3f04",
       "can"
+    ],
+    [
+      "956e382c-4efc-492f-b828-7c0ac2cccd62",
+      "usb_pd"
+    ],
+    [
+      "f4c4eb3a-0e88-4b17-81fd-38f6eae552fe",
+      "power_mux"
     ]
   ],
   "text_variables": {},
