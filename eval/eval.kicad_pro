@@ -740,7 +740,7 @@
         "uuid": "8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
       }
     ],
-    "used_designators": "#PWR49,C49,IC1,Q9-10,U7,U18-19",
+    "used_designators": "Q9,C51-60,D5,D7,#PWR95-124,R16,R19,R25,R48-63,U20-24,F1-2",
     "variants": []
   },
   "sheets": [
@@ -761,16 +761,16 @@
       "aux_power_rail"
     ],
     [
-      "4380f3ef-c4d9-44b0-bf49-4e0cf7323e12",
-      "power_battery"
-    ],
-    [
       "cc11e5a9-bb51-4ba8-a74b-0d2f2f060f5d",
       "screen"
     ],
     [
       "6dc5225f-c89b-40d1-9470-7379c2fb3f04",
       "can"
+    ],
+    [
+      "4380f3ef-c4d9-44b0-bf49-4e0cf7323e12",
+      "power_battery"
     ],
     [
       "956e382c-4efc-492f-b828-7c0ac2cccd62",

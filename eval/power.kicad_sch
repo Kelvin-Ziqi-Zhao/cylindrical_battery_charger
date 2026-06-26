@@ -2877,6 +2877,18 @@
 		)
 		(uuid "6494beec-6cb3-4a6c-b4cc-a7f320e32750")
 	)
+	(text "Output: 0.05V/A"
+		(exclude_from_sim no)
+		(at 174.752 222.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8288ecc3-566a-48b7-b232-03f147e87934")
+	)
 	(text "LM5148RGYR, cheaper, with cc\n"
 		(exclude_from_sim no)
 		(at 40.894 30.226 0)
