@@ -2804,6 +2804,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "inductor selection list\nC18337518\n\nC52989662 \nC52989661（470n)"
+		(exclude_from_sim no)
+		(at 242.57 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "150165c4-49ad-465c-b83c-11e75f43a7b8")
+	)
 	(text "RT(frequency config):\nR(kohm) = (10e6/500(kHz)- 53)/45\n[Equation 4 snvsc01]"
 		(exclude_from_sim no)
 		(at 158.75 153.67 0)
@@ -2898,16 +2908,6 @@
 			)
 		)
 		(uuid "94dbb871-bf92-4e81-ad84-6e44e95d3600")
-	)
-	(text "back to back output protect"
-		(exclude_from_sim no)
-		(at 282.194 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9f569865-6511-4127-b61f-e13ebc8d89c2")
 	)
 	(text "DCR sample circuit required"
 		(exclude_from_sim no)
