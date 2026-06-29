@@ -5,7 +5,7 @@
 	(uuid "506c0818-8e21-4990-be3f-df187f1a162b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:TLV9064"
+		(symbol "Amplifier_Operational:TLV9062"
 			(pin_names
 				(offset 0.127)
 			)
@@ -25,7 +25,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TLV9064"
+			(property "Value" "TLV9062"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -37,7 +37,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.27 2.54 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -47,8 +47,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-				(at 1.27 5.08 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" "Quad Rail-to-Rail, Operational Amplifiers, 10MHz, SOIC-14/TSSOP-14"
+			(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "quad opamp"
+			(property "ki_keywords" "dual opamp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* TSSOP*4.4x3mm*P0.65mm* VSSOP*3x3mm*P0.5mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -101,7 +101,7 @@
 					)
 				)
 			)
-			(symbol "TLV9064_1_1"
+			(symbol "TLV9062_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -169,7 +169,7 @@
 					)
 				)
 			)
-			(symbol "TLV9064_2_1"
+			(symbol "TLV9062_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -237,147 +237,11 @@
 					)
 				)
 			)
-			(symbol "TLV9064_3_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLV9064_4_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TLV9064_5_1"
+			(symbol "TLV9062_3_1"
 				(pin power_in line
-					(at -2.54 7.62 270)
+					(at -2.54 -7.62 90)
 					(length 3.81)
-					(name "V+"
+					(name "V-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -393,16 +257,16 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -7.62 90)
+					(at -2.54 7.62 270)
 					(length 3.81)
-					(name "V-"
+					(name "V+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "11"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -710,14 +574,21 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:BAT54,215"
+		(symbol "Diode:BAT54J"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 10.16 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -726,8 +597,8 @@
 					)
 				)
 			)
-			(property "Value" "BAT54,215"
-				(at 0 -7.62 0)
+			(property "Value" "BAT54J"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -736,19 +607,8 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_NXP_BAT54-215_BAT54-215_C85084.html"
-				(at 0 -12.7 0)
+			(property "Footprint" "Diode_SMD:D_SOD-323F"
+				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -758,7 +618,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -769,40 +629,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Nexperia(安世)"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "BAT54,215"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C85084"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Schottky Barrier Diodes (SBD)"
+			(property "Description" "30V 200mA Schottky diode, SOD-323F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -813,22 +640,56 @@
 					)
 				)
 			)
-			(symbol "BAT54,215_0_1"
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323F*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAT54J_0_1"
 				(polyline
 					(pts
-						(xy -3.81 -1.52) (xy -3.81 -3.56) (xy -2.03 -2.54) (xy -3.81 -1.52)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.52) (xy -2.54 -1.27) (xy -2.03 -1.27) (xy -2.03 -3.81) (xy -1.52 -3.81) (xy -1.52 -3.56)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -838,10 +699,12 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "A"
+			)
+			(symbol "BAT54J_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -856,13 +719,10 @@
 						)
 					)
 				)
-			)
-			(symbol "BAT54,215_1_1"
-				(pin unspecified line
-					(at -7.62 2.54 180)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -870,24 +730,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 -2.54 180)
-					(length 5.08)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1208,34 +1050,16 @@
 		(uuid "e20e6479-f869-46f2-882b-39ed26e1554d")
 	)
 	(junction
-		(at 113.03 43.18)
+		(at 77.47 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a7c2cc9-8216-4553-b392-f14323a918f3")
-	)
-	(junction
-		(at 111.76 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35905841-39e5-4f3e-8f94-4a74b3f94b83")
-	)
-	(junction
-		(at 163.83 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "501bc96b-da18-4dd6-9190-e86cfff8245e")
+		(uuid "4e3fae14-34ea-4fb8-a2d5-ca3f151f57d5")
 	)
 	(junction
 		(at 66.04 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "619589e1-caa4-41b5-8c1f-42ac89cea3dc")
-	)
-	(junction
-		(at 77.47 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ccc5fa5-730e-4526-92e2-5189611b40d2")
+		(uuid "54aa564b-5877-43ce-9168-c4ac2ca7ff5b")
 	)
 	(junction
 		(at 66.04 123.19)
@@ -1244,28 +1068,34 @@
 		(uuid "8975e9ac-ed93-4bde-91af-b31297317600")
 	)
 	(junction
-		(at 60.96 113.03)
+		(at 170.18 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b84779db-00f8-4e47-a2e8-0ee673d68562")
-	)
-	(junction
-		(at 77.47 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ccf006b4-0764-460b-837f-f31d71e90ba0")
-	)
-	(junction
-		(at 163.83 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de7a03a0-ea5f-42ed-becf-39ea34a21454")
+		(uuid "9644e4cf-a9bd-4711-95cc-8a758e089ed5")
 	)
 	(junction
 		(at 67.31 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e090740f-c8bc-45b1-a057-0bb3e230d54f")
+		(uuid "9e53c0c3-dc7a-4716-a910-967438beae46")
+	)
+	(junction
+		(at 170.18 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1a26496-9e58-49e2-a1f4-1dec2f58ea72")
+	)
+	(junction
+		(at 77.47 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2503dca-76ef-4a59-94c8-98611d0b734c")
+	)
+	(junction
+		(at 60.96 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84779db-00f8-4e47-a2e8-0ee673d68562")
 	)
 	(junction
 		(at 71.12 123.19)
@@ -1275,113 +1105,33 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 60.96) (xy 163.83 62.23)
+			(xy 170.18 107.95) (xy 170.18 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01cf966c-8570-4786-8cee-da93545dfcdf")
+		(uuid "0e9d0fab-781a-46b8-a198-1f30463db3ea")
 	)
 	(wire
 		(pts
-			(xy 163.83 48.26) (xy 163.83 46.99)
+			(xy 170.18 121.92) (xy 172.72 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02dbd47c-69c0-4814-8ae2-80fca41f5d10")
+		(uuid "2d46df30-438e-4fba-9e5d-2bb51962dd67")
 	)
 	(wire
 		(pts
-			(xy 92.71 74.93) (xy 92.71 80.01)
+			(xy 77.47 110.49) (xy 86.36 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04de4812-57ef-4a7b-9e28-f456a9421ae1")
-	)
-	(wire
-		(pts
-			(xy 96.52 74.93) (xy 92.71 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb94b36-5d91-4c25-a96e-8d1c40d66767")
-	)
-	(wire
-		(pts
-			(xy 93.98 45.72) (xy 93.98 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fa82bf7-1e0f-4195-ac2d-bceec82cd59e")
-	)
-	(wire
-		(pts
-			(xy 154.94 48.26) (xy 163.83 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2511057e-170c-4678-b4e9-9d0d8ebea07f")
-	)
-	(wire
-		(pts
-			(xy 111.76 72.39) (xy 111.76 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29f4ebe3-3885-4355-a385-df950b23f436")
-	)
-	(wire
-		(pts
-			(xy 93.98 50.8) (xy 113.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428bded3-2bda-4a83-bd06-f8f253854741")
-	)
-	(wire
-		(pts
-			(xy 92.71 80.01) (xy 111.76 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42d0e6f7-a695-48f2-a252-0bb8fde81ac8")
-	)
-	(wire
-		(pts
-			(xy 113.03 43.18) (xy 113.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44b664c4-f4aa-43e9-92b4-dd28baddbc0c")
-	)
-	(wire
-		(pts
-			(xy 154.94 52.07) (xy 154.94 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57b3b8ca-6af1-4333-87b1-83be76e68e69")
+		(uuid "44ad5e53-ac7f-4c92-8ebd-d77cc528e632")
 	)
 	(wire
 		(pts
@@ -1402,16 +1152,6 @@
 			(type default)
 		)
 		(uuid "6701389c-087a-485b-9928-97612323cc9d")
-	)
-	(wire
-		(pts
-			(xy 124.46 72.39) (xy 120.65 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70084658-0b57-45f9-a76c-7c1c833b22a4")
 	)
 	(wire
 		(pts
@@ -1475,26 +1215,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 45.72) (xy 93.98 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e280a9a-769e-47b1-b6c5-ff19af0e284b")
-	)
-	(wire
-		(pts
-			(xy 77.47 110.49) (xy 85.09 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ebfb882-ade3-443a-ace2-2759c8730d2a")
-	)
-	(wire
-		(pts
 			(xy 60.96 123.19) (xy 66.04 123.19)
 		)
 		(stroke
@@ -1502,16 +1222,6 @@
 			(type default)
 		)
 		(uuid "95fc9673-b9fa-4fe8-9a59-3a5acf1cd29e")
-	)
-	(wire
-		(pts
-			(xy 154.94 57.15) (xy 154.94 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a76ee9-a10d-48d8-a361-810453c7a33a")
 	)
 	(wire
 		(pts
@@ -1545,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 69.85) (xy 96.52 69.85)
+			(xy 66.04 69.85) (xy 81.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1555,23 +1265,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 40.64) (xy 97.79 40.64)
+			(xy 67.31 40.64) (xy 82.55 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b06500f3-bb51-4f8f-bf20-da42a4e770d3")
-	)
-	(wire
-		(pts
-			(xy 125.73 43.18) (xy 121.92 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b66f2580-14ff-4c61-a869-348aba210894")
 	)
 	(wire
 		(pts
@@ -1655,13 +1355,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 163.83 60.96)
+			(xy 162.56 121.92) (xy 170.18 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d81d57e3-bc9d-45ea-9941-680e6d97d744")
+		(uuid "d6936088-1ccb-4215-86b8-bff07b3db016")
+	)
+	(wire
+		(pts
+			(xy 162.56 111.76) (xy 162.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbada37d-28e9-4c85-9f3f-8559c58fde8b")
 	)
 	(wire
 		(pts
@@ -1685,6 +1395,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e4997e-4d76-4e85-b5cc-ec19ea0ad1dc")
+	)
+	(wire
+		(pts
 			(xy 66.04 120.65) (xy 66.04 123.19)
 		)
 		(stroke
@@ -1692,16 +1412,6 @@
 			(type default)
 		)
 		(uuid "e7ae3365-8fb5-4ed7-8268-40dcccb385e7")
-	)
-	(wire
-		(pts
-			(xy 116.84 43.18) (xy 113.03 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eafa1247-2508-4905-b4a8-df3d80718941")
 	)
 	(wire
 		(pts
@@ -1735,13 +1445,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 72.39) (xy 111.76 72.39)
+			(xy 162.56 116.84) (xy 162.56 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f26ad282-d834-4373-92b2-09e1623e092f")
+		(uuid "f56d2d61-1a3f-4306-b1e4-b1cda31b1b1e")
 	)
 	(wire
 		(pts
@@ -1753,8 +1463,8 @@
 		)
 		(uuid "f83f916f-a2a9-458f-a52d-eb30f2a2f078")
 	)
-	(label "V_CTL_BUFF"
-		(at 125.73 43.18 0)
+	(label "V_CTL_FILT"
+		(at 82.55 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,7 +1473,7 @@
 		)
 		(uuid "1a17fb1c-e263-4c40-b5ab-95cb04600618")
 	)
-	(label "I_CTL_BUFF"
+	(label "I_CTL_FILT"
 		(at 52.07 107.95 180)
 		(effects
 			(font
@@ -1771,10 +1481,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1b8b94a9-5df4-4d1c-a63c-04b54f9f920d")
+		(uuid "90dc2700-4b6e-41c4-897c-abf119de8d24")
 	)
-	(label "I_CTL_BUFF"
-		(at 124.46 72.39 0)
+	(label "I_CTL_FILT"
+		(at 81.28 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,7 +1493,7 @@
 		)
 		(uuid "9cf82c99-5cbf-41a0-bc5c-8f59725b9af6")
 	)
-	(label "V_CTL_BUFF"
+	(label "V_CTL_FILT"
 		(at 53.34 147.32 180)
 		(effects
 			(font
@@ -1791,7 +1501,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c4706565-11a2-445e-bf3c-0e4f8d122341")
+		(uuid "ee320f5d-cb34-426c-84be-8fd0614dd96a")
 	)
 	(hierarchical_label "FB_NODE"
 		(shape input)
@@ -1847,549 +1557,6 @@
 			(justify right)
 		)
 		(uuid "e7378d49-95fa-4659-be65-dd7e40c62003")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 119.38 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01ed0732-e78e-42ff-8307-6661f30a0092")
-		(property "Reference" "R17"
-			(at 119.38 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 119.38 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 119.38 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 119.38 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 119.38 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 119.38 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 119.38 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 119.38 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 119.38 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 119.38 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 119.38 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89219362-ed89-4ad6-aa81-8ba890fd0d95")
-		)
-		(pin "2"
-			(uuid "5a1f2fe6-01e6-4f70-a48f-fb9faa66299e")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 105.41 43.18 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06d2cc0c-def9-4280-ae0f-d1c22e28fe47")
-		(property "Reference" "U5"
-			(at 105.41 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 105.41 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 104.14 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 106.68 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Rail-to-Rail, Operational Amplifiers, 10MHz, SOIC-14/TSSOP-14"
-			(at 105.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 105.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 105.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 105.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 105.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 105.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 105.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 105.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06ef8712-5062-46ca-beb8-a9643cdc5110")
-		)
-		(pin "2"
-			(uuid "1d855815-ec8a-4f16-a94e-4c98bbaa4404")
-		)
-		(pin "3"
-			(uuid "34ee7180-1348-4c5e-bc18-faca28ee989b")
-		)
-		(pin "5"
-			(uuid "30dbd571-a659-483b-a9a1-6a7487d4687b")
-		)
-		(pin "6"
-			(uuid "38419f57-16f0-4d55-a561-2c18b1ebf30f")
-		)
-		(pin "7"
-			(uuid "a0482478-b550-4546-9aad-ed78d37f9e4e")
-		)
-		(pin "8"
-			(uuid "4349679c-1771-4088-9fc6-f73823f3752c")
-		)
-		(pin "9"
-			(uuid "6e240623-afca-4137-b18a-be4bd96f481f")
-		)
-		(pin "10"
-			(uuid "036410b7-1051-4957-b686-f2f86cd51b46")
-		)
-		(pin "12"
-			(uuid "075e0c9a-ee5b-4842-8077-df31463f3e8a")
-		)
-		(pin "13"
-			(uuid "30bc9dc6-1a57-40ba-a90b-130c2031b5bd")
-		)
-		(pin "14"
-			(uuid "8b1ec329-9a70-44e4-912d-ef48b191aff1")
-		)
-		(pin "4"
-			(uuid "b1f92d93-4f57-4e10-b018-13bb0120b0d9")
-		)
-		(pin "11"
-			(uuid "87e6bb65-db05-4a41-8bfd-57682f4309a2")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "U5")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 69.85 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2112e076-d94f-47da-8913-7c1cad37d25a")
-		(property "Reference" "U5"
-			(at 69.85 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 69.85 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 68.58 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 71.12 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Rail-to-Rail, Operational Amplifiers, 10MHz, SOIC-14/TSSOP-14"
-			(at 69.85 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 69.85 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 69.85 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 69.85 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 69.85 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 69.85 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 69.85 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 69.85 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06ef8712-5062-46ca-beb8-a9643cdc5111")
-		)
-		(pin "2"
-			(uuid "1d855815-ec8a-4f16-a94e-4c98bbaa4405")
-		)
-		(pin "3"
-			(uuid "34ee7180-1348-4c5e-bc18-faca28ee989c")
-		)
-		(pin "5"
-			(uuid "30dbd571-a659-483b-a9a1-6a7487d4687c")
-		)
-		(pin "6"
-			(uuid "38419f57-16f0-4d55-a561-2c18b1ebf310")
-		)
-		(pin "7"
-			(uuid "a0482478-b550-4546-9aad-ed78d37f9e4f")
-		)
-		(pin "8"
-			(uuid "4349679c-1771-4088-9fc6-f73823f3752d")
-		)
-		(pin "9"
-			(uuid "6e240623-afca-4137-b18a-be4bd96f4820")
-		)
-		(pin "10"
-			(uuid "036410b7-1051-4957-b686-f2f86cd51b47")
-		)
-		(pin "12"
-			(uuid "075e0c9a-ee5b-4842-8077-df31463f3e8b")
-		)
-		(pin "13"
-			(uuid "30bc9dc6-1a57-40ba-a90b-130c2031b5be")
-		)
-		(pin "14"
-			(uuid "8b1ec329-9a70-44e4-912d-ef48b191aff2")
-		)
-		(pin "4"
-			(uuid "b1f92d93-4f57-4e10-b018-13bb0120b0da")
-		)
-		(pin "11"
-			(uuid "87e6bb65-db05-4a41-8bfd-57682f4309a3")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2630,199 +1797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:BAT54,215")
-		(at 86.36 113.03 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "369ac227-be1a-42e2-8b9c-9ad9d82e43f4")
-		(property "Reference" "D1"
-			(at 89.025 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54,215"
-			(at 89.025 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 86.36 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_NXP_BAT54-215_BAT54-215_C85084.html"
-			(at 86.36 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 86.36 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BAT54,215"
-			(at 86.36 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C85084"
-			(at 86.36 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 86.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 86.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 86.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 86.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 86.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 86.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 86.36 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "aa32f88e-a4e6-48bc-8956-215413750915")
-		)
-		(pin "1"
-			(uuid "99d197e9-c94b-4697-a6d8-1055a7420de0")
-		)
-		(pin "2"
-			(uuid "95713109-e830-4782-af1b-171c7addd092")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 60.96 40.64 90)
 		(unit 1)
@@ -2980,9 +1954,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 104.14 72.39 0)
-		(unit 4)
+		(lib_id "Amplifier_Operational:TLV9062")
+		(at 69.85 149.86 0)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2990,9 +1964,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3fd39942-8ef4-4189-b698-7c2c47b2f04c")
-		(property "Reference" "U5"
-			(at 104.14 62.23 0)
+		(uuid "44cd3fbb-4651-47ac-871f-dc3df770c669")
+		(property "Reference" "U19"
+			(at 69.85 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3001,8 +1975,8 @@
 				)
 			)
 		)
-		(property "Value" "TLV9064"
-			(at 104.14 64.77 0)
+		(property "Value" "TLV9062"
+			(at 69.85 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3011,8 +1985,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 102.87 69.85 0)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 69.85 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3022,8 +1996,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 105.41 67.31 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 69.85 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3033,85 +2007,8 @@
 				)
 			)
 		)
-		(property "Description" "Quad Rail-to-Rail, Operational Amplifiers, 10MHz, SOIC-14/TSSOP-14"
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 104.14 72.39 0)
+		(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
+			(at 69.85 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,52 +2019,34 @@
 			)
 		)
 		(pin "1"
-			(uuid "06ef8712-5062-46ca-beb8-a9643cdc5112")
+			(uuid "3bdea78c-6c36-4495-a3b7-bc1e97d78c5b")
 		)
 		(pin "2"
-			(uuid "1d855815-ec8a-4f16-a94e-4c98bbaa4406")
-		)
-		(pin "3"
-			(uuid "34ee7180-1348-4c5e-bc18-faca28ee989d")
-		)
-		(pin "5"
-			(uuid "30dbd571-a659-483b-a9a1-6a7487d4687d")
+			(uuid "c62e77b0-3adc-4d0b-9e5a-a0f496a4b468")
 		)
 		(pin "6"
-			(uuid "38419f57-16f0-4d55-a561-2c18b1ebf311")
+			(uuid "39c43886-3e9e-48d5-a66d-6c7cf130f2d9")
 		)
-		(pin "7"
-			(uuid "a0482478-b550-4546-9aad-ed78d37f9e50")
-		)
-		(pin "8"
-			(uuid "4349679c-1771-4088-9fc6-f73823f3752e")
-		)
-		(pin "9"
-			(uuid "6e240623-afca-4137-b18a-be4bd96f4821")
-		)
-		(pin "10"
-			(uuid "036410b7-1051-4957-b686-f2f86cd51b48")
-		)
-		(pin "12"
-			(uuid "075e0c9a-ee5b-4842-8077-df31463f3e8c")
-		)
-		(pin "13"
-			(uuid "30bc9dc6-1a57-40ba-a90b-130c2031b5bf")
-		)
-		(pin "14"
-			(uuid "8b1ec329-9a70-44e4-912d-ef48b191aff3")
+		(pin "5"
+			(uuid "8570f31d-822f-449c-8bcb-00b1772868e0")
 		)
 		(pin "4"
-			(uuid "b1f92d93-4f57-4e10-b018-13bb0120b0db")
+			(uuid "682b8123-2d75-456f-9cfe-6c69da0c1170")
 		)
-		(pin "11"
-			(uuid "87e6bb65-db05-4a41-8bfd-57682f4309a4")
+		(pin "3"
+			(uuid "9dd58c36-91ab-436a-9eee-76e5795cc730")
+		)
+		(pin "8"
+			(uuid "3795ea5a-5928-42a0-8642-ebb7838af133")
+		)
+		(pin "7"
+			(uuid "43e8604c-d426-411b-a60b-4211db80f27f")
 		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "U5")
-					(unit 4)
+					(reference "U19")
+					(unit 2)
 				)
 			)
 		)
@@ -3324,84 +2203,6 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 163.83 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65333691-7aa3-4450-b467-d4df93253077")
-		(property "Reference" "#PWR088"
-			(at 163.83 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 163.83 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.83 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7864b8f-1a71-42d6-9965-f57e2ae740bd")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -3565,8 +2366,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 163.83 62.23 0)
+		(lib_id "Amplifier_Operational:TLV9062")
+		(at 69.85 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3574,9 +2375,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7bfcb976-de32-4e8b-8b8a-7519dee06997")
-		(property "Reference" "#PWR018"
-			(at 163.83 68.58 0)
+		(fields_autoplaced yes)
+		(uuid "809731d2-b4d9-4835-b5ca-10723950c747")
+		(property "Reference" "U19"
+			(at 69.85 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062"
+			(at 69.85 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,18 +2408,8 @@
 				)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 163.83 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 62.23 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3607,19 +2419,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 163.83 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 163.83 62.23 0)
+		(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
+			(at 69.85 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3630,12 +2431,111 @@
 			)
 		)
 		(pin "1"
-			(uuid "c45247bf-208a-4db7-9512-3d65e7a8e48e")
+			(uuid "3bdea78c-6c36-4495-a3b7-bc1e97d78c5c")
+		)
+		(pin "2"
+			(uuid "c62e77b0-3adc-4d0b-9e5a-a0f496a4b469")
+		)
+		(pin "6"
+			(uuid "39c43886-3e9e-48d5-a66d-6c7cf130f2da")
+		)
+		(pin "5"
+			(uuid "8570f31d-822f-449c-8bcb-00b1772868e1")
+		)
+		(pin "4"
+			(uuid "682b8123-2d75-456f-9cfe-6c69da0c1171")
+		)
+		(pin "3"
+			(uuid "9dd58c36-91ab-436a-9eee-76e5795cc731")
+		)
+		(pin "8"
+			(uuid "3795ea5a-5928-42a0-8642-ebb7838af134")
+		)
+		(pin "7"
+			(uuid "43e8604c-d426-411b-a60b-4211db80f280")
 		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "#PWR018")
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 170.18 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86214649-2bd0-43d1-a46a-91bdae4d062e")
+		(property "Reference" "#PWR088"
+			(at 170.18 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 170.18 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c74f6342-1ffd-4d9c-90b4-ae66fc969eb6")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -4036,9 +2936,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 69.85 149.86 0)
-		(unit 2)
+		(lib_id "Diode:BAT54J")
+		(at 90.17 110.49 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4046,29 +2946,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7f54bd0-9e2d-4538-8e10-213df200e996")
-		(property "Reference" "U5"
-			(at 69.85 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 69.85 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 68.58 147.32 0)
+		(uuid "a75524b1-a3ce-43b9-9800-241189af05e6")
+		(property "Reference" "D1"
+			(at 89.8525 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4078,8 +2958,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 71.12 144.78 0)
+		(property "Value" "BAT54J"
+			(at 89.8525 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 90.17 114.935 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4089,8 +2979,8 @@
 				)
 			)
 		)
-		(property "Description" "Quad Rail-to-Rail, Operational Amplifiers, 10MHz, SOIC-14/TSSOP-14"
-			(at 69.85 149.86 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 90.17 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4100,8 +2990,8 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 69.85 149.86 0)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 90.17 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,8 +3001,57 @@
 				)
 			)
 		)
-		(property "Arrow Price/Stock" ""
-			(at 69.85 149.86 0)
+		(pin "2"
+			(uuid "3ae12e9f-b377-40f7-9326-c810b3218aab")
+		)
+		(pin "1"
+			(uuid "e6cfaad9-3ae9-4047-be16-c6e940e12c36")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9062")
+		(at 172.72 115.57 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a970daa5-383f-4ef1-b644-5fe94c6e56b1")
+		(property "Reference" "U19"
+			(at 171.45 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV9062"
+			(at 171.45 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4122,8 +3061,8 @@
 				)
 			)
 		)
-		(property "Height" ""
-			(at 69.85 149.86 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,41 +3072,8 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
-			(at 69.85 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 69.85 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 69.85 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 69.85 149.86 0)
+		(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4178,52 +3084,193 @@
 			)
 		)
 		(pin "1"
-			(uuid "06ef8712-5062-46ca-beb8-a9643cdc5113")
+			(uuid "3bdea78c-6c36-4495-a3b7-bc1e97d78c5d")
 		)
 		(pin "2"
-			(uuid "1d855815-ec8a-4f16-a94e-4c98bbaa4407")
-		)
-		(pin "3"
-			(uuid "34ee7180-1348-4c5e-bc18-faca28ee989e")
-		)
-		(pin "5"
-			(uuid "30dbd571-a659-483b-a9a1-6a7487d4687e")
+			(uuid "c62e77b0-3adc-4d0b-9e5a-a0f496a4b46a")
 		)
 		(pin "6"
-			(uuid "38419f57-16f0-4d55-a561-2c18b1ebf312")
+			(uuid "39c43886-3e9e-48d5-a66d-6c7cf130f2db")
 		)
-		(pin "7"
-			(uuid "a0482478-b550-4546-9aad-ed78d37f9e51")
-		)
-		(pin "8"
-			(uuid "4349679c-1771-4088-9fc6-f73823f3752f")
-		)
-		(pin "9"
-			(uuid "6e240623-afca-4137-b18a-be4bd96f4822")
-		)
-		(pin "10"
-			(uuid "036410b7-1051-4957-b686-f2f86cd51b49")
-		)
-		(pin "12"
-			(uuid "075e0c9a-ee5b-4842-8077-df31463f3e8d")
-		)
-		(pin "13"
-			(uuid "30bc9dc6-1a57-40ba-a90b-130c2031b5c0")
-		)
-		(pin "14"
-			(uuid "8b1ec329-9a70-44e4-912d-ef48b191aff4")
+		(pin "5"
+			(uuid "8570f31d-822f-449c-8bcb-00b1772868e2")
 		)
 		(pin "4"
-			(uuid "b1f92d93-4f57-4e10-b018-13bb0120b0dc")
+			(uuid "682b8123-2d75-456f-9cfe-6c69da0c1172")
 		)
-		(pin "11"
-			(uuid "87e6bb65-db05-4a41-8bfd-57682f4309a5")
+		(pin "3"
+			(uuid "9dd58c36-91ab-436a-9eee-76e5795cc732")
+		)
+		(pin "8"
+			(uuid "3795ea5a-5928-42a0-8642-ebb7838af135")
+		)
+		(pin "7"
+			(uuid "43e8604c-d426-411b-a60b-4211db80f281")
 		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "U5")
-					(unit 2)
+					(reference "U19")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 162.56 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa088d27-fa37-457b-9fb4-303be5adc154")
+		(property "Reference" "C38"
+			(at 165.1 113.0362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 165.1 115.5762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 162.56 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "669835dd-ff7c-4da7-ae72-0f1648354f0f")
+		)
+		(pin "2"
+			(uuid "2865677f-acba-4a90-be3d-34d3113ae1d8")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
+					(reference "C38")
+					(unit 1)
 				)
 			)
 		)
@@ -4386,41 +3433,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:TLV9064")
-		(at 166.37 54.61 0)
-		(unit 5)
+		(lib_id "power:GNDA")
+		(at 170.18 121.92 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1d4bacd-8f3e-4fec-a1df-e6b8419d863f")
-		(property "Reference" "U5"
-			(at 165.1 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TLV9064"
-			(at 165.1 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 165.1 52.07 0)
+		(uuid "bfe04a7c-a70b-49c8-90aa-488df4fa3bf1")
+		(property "Reference" "#PWR018"
+			(at 170.18 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4430,8 +3454,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9064.pdf"
-			(at 167.64 49.53 0)
+		(property "Value" "GNDA"
+			(at 170.18 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,8 +3475,8 @@
 				)
 			)
 		)
-		(property "Description" "Quad Rail-to-Rail, Operational Amplifiers, 10MHz, SOIC-14/TSSOP-14"
-			(at 166.37 54.61 0)
+		(property "Datasheet" ""
+			(at 170.18 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,74 +3486,8 @@
 				)
 			)
 		)
-		(property "Arrow Part Number" ""
-			(at 166.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 166.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 166.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 166.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 166.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 166.37 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 166.37 54.61 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 170.18 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,52 +3498,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "06ef8712-5062-46ca-beb8-a9643cdc5114")
-		)
-		(pin "2"
-			(uuid "1d855815-ec8a-4f16-a94e-4c98bbaa4408")
-		)
-		(pin "3"
-			(uuid "34ee7180-1348-4c5e-bc18-faca28ee989f")
-		)
-		(pin "5"
-			(uuid "30dbd571-a659-483b-a9a1-6a7487d4687f")
-		)
-		(pin "6"
-			(uuid "38419f57-16f0-4d55-a561-2c18b1ebf313")
-		)
-		(pin "7"
-			(uuid "a0482478-b550-4546-9aad-ed78d37f9e52")
-		)
-		(pin "8"
-			(uuid "4349679c-1771-4088-9fc6-f73823f37530")
-		)
-		(pin "9"
-			(uuid "6e240623-afca-4137-b18a-be4bd96f4823")
-		)
-		(pin "10"
-			(uuid "036410b7-1051-4957-b686-f2f86cd51b4a")
-		)
-		(pin "12"
-			(uuid "075e0c9a-ee5b-4842-8077-df31463f3e8e")
-		)
-		(pin "13"
-			(uuid "30bc9dc6-1a57-40ba-a90b-130c2031b5c1")
-		)
-		(pin "14"
-			(uuid "8b1ec329-9a70-44e4-912d-ef48b191aff5")
-		)
-		(pin "4"
-			(uuid "b1f92d93-4f57-4e10-b018-13bb0120b0dd")
-		)
-		(pin "11"
-			(uuid "87e6bb65-db05-4a41-8bfd-57682f4309a6")
+			(uuid "af688640-d079-4cbd-989e-6a51f4f51cad")
 		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "U5")
-					(unit 5)
+					(reference "#PWR018")
+					(unit 1)
 				)
 			)
 		)
@@ -4731,322 +3660,6 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 154.94 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8130246-cf8d-4b79-bc4e-5fa3584b5584")
-		(property "Reference" "C38"
-			(at 157.48 53.3462 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 157.48 55.8862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 154.94 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e27f7e57-8cea-49c2-abe7-10fe46f73908")
-		)
-		(pin "2"
-			(uuid "b84bca63-2324-468e-b282-37cd93fe0541")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 118.11 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dddf7b25-0c5b-4e8a-a792-bca7341c0e05")
-		(property "Reference" "R20"
-			(at 118.11 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 118.11 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 118.11 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 118.11 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 118.11 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 118.11 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 118.11 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 118.11 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 118.11 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 118.11 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 118.11 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "568e4c84-b005-4e15-931e-9facad1f5d32")
-		)
-		(pin "2"
-			(uuid "da93ad36-e81a-4e1c-ba8c-ac57bee3b953")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/2f398d92-68d1-416e-a954-bbf2a8f3282d"
-					(reference "R20")
 					(unit 1)
 				)
 			)

@@ -206,7 +206,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Comparator:LM2901"
+		(symbol "Comparator:LM2903"
 			(pin_names
 				(offset 0.127)
 			)
@@ -216,29 +216,27 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 5.08 0)
+				(at 3.81 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LM2901"
-				(at 0 -5.08 0)
+			(property "Value" "LM2903"
+				(at 6.35 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at -1.27 2.54 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -248,8 +246,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
-				(at 1.27 5.08 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -259,7 +257,7 @@
 					)
 				)
 			)
-			(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
+			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -291,7 +289,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -302,88 +300,7 @@
 					)
 				)
 			)
-			(symbol "LM2901_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM2901_2_1"
+			(symbol "LM2903_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -437,7 +354,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -449,6 +366,87 @@
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM2903_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -464,187 +462,7 @@
 					)
 				)
 			)
-			(symbol "LM2901_3_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM2901_4_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM2901_5_1"
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "LM2903_3_1"
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -655,7 +473,25 @@
 							)
 						)
 					)
-					(number "12"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1448,14 +1284,21 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:BAT54,215"
+		(symbol "Diode:BAT54J"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 10.16 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1464,8 +1307,8 @@
 					)
 				)
 			)
-			(property "Value" "BAT54,215"
-				(at 0 -7.62 0)
+			(property "Value" "BAT54J"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1474,19 +1317,8 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_NXP_BAT54-215_BAT54-215_C85084.html"
-				(at 0 -12.7 0)
+			(property "Footprint" "Diode_SMD:D_SOD-323F"
+				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1496,7 +1328,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1507,40 +1339,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Nexperia(安世)"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "BAT54,215"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C85084"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Schottky Barrier Diodes (SBD)"
+			(property "Description" "30V 200mA Schottky diode, SOD-323F"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1551,22 +1350,56 @@
 					)
 				)
 			)
-			(symbol "BAT54,215_0_1"
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323F*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAT54J_0_1"
 				(polyline
 					(pts
-						(xy -3.81 -1.52) (xy -3.81 -3.56) (xy -2.03 -2.54) (xy -3.81 -1.52)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.52) (xy -2.54 -1.27) (xy -2.03 -1.27) (xy -2.03 -3.81) (xy -1.52 -3.81) (xy -1.52 -3.56)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1576,10 +1409,12 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "A"
+			)
+			(symbol "BAT54J_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1594,13 +1429,10 @@
 						)
 					)
 				)
-			)
-			(symbol "BAT54,215_1_1"
-				(pin unspecified line
-					(at -7.62 2.54 180)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1608,24 +1440,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 -2.54 180)
-					(length 5.08)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3187,6 +3001,12 @@
 		(uuid "02ae0298-1fba-47ea-85c5-062317eccd0f")
 	)
 	(junction
+		(at 261.62 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03a6411b-8ebe-4e63-b150-21ea76c6544a")
+	)
+	(junction
 		(at 110.49 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3211,12 +3031,6 @@
 		(uuid "218ffac4-a907-41a3-be15-ca47445e4509")
 	)
 	(junction
-		(at 251.46 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26ae46f6-b46c-4907-8926-1905af2df69a")
-	)
-	(junction
 		(at 87.63 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3227,12 +3041,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b31fc85-4a19-4bca-969a-602a128ba15d")
-	)
-	(junction
-		(at 128.27 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b45a9f6-953f-445f-8025-b2d8105854bb")
 	)
 	(junction
 		(at 87.63 68.58)
@@ -3247,16 +3055,16 @@
 		(uuid "323bdec0-9dfd-46bd-afeb-b9f60624ac85")
 	)
 	(junction
-		(at 261.62 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41e09c38-41f9-4c79-b366-b0a957902fec")
-	)
-	(junction
 		(at 91.44 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46a039a3-cc1f-481c-b8db-3987535cec95")
+	)
+	(junction
+		(at 251.46 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49478ea9-8298-47af-a6fd-dc3008c430fc")
 	)
 	(junction
 		(at 251.46 36.83)
@@ -3269,6 +3077,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5be30e95-6865-4ade-89a5-4fa5fb508f63")
+	)
+	(junction
+		(at 128.27 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e9272d5-56e0-4ba0-ac1f-fd0428a7f394")
 	)
 	(junction
 		(at 63.5 68.58)
@@ -3293,6 +3107,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70ca7bd0-d1cd-4491-a0d7-2129c818204b")
+	)
+	(junction
+		(at 261.62 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71770073-beee-42d1-b0c9-669173e5cecd")
 	)
 	(junction
 		(at 259.08 36.83)
@@ -3355,12 +3175,6 @@
 		(uuid "b9f0a91d-ff61-45c3-ab34-bd53afe53992")
 	)
 	(junction
-		(at 261.62 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd5e13c5-7ed8-4cef-aa6c-c7ae15f25b47")
-	)
-	(junction
 		(at 210.82 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3415,32 +3229,8 @@
 		(uuid "ffea7609-e3b6-4b16-8d27-f5836611bda6")
 	)
 	(no_connect
-		(at 248.92 212.09)
-		(uuid "2d3dc252-8536-43a0-a52c-95e73b9fecce")
-	)
-	(no_connect
-		(at 264.16 246.38)
-		(uuid "3b4c2cda-aef5-4129-90e4-3ffa0d1642a2")
-	)
-	(no_connect
-		(at 248.92 207.01)
-		(uuid "3e5dd58e-e9fc-4ffa-a1b1-9c8178a0bf1c")
-	)
-	(no_connect
 		(at 78.74 58.42)
 		(uuid "86c59c6d-4dbb-40bd-86c6-ba167407222d")
-	)
-	(no_connect
-		(at 248.92 248.92)
-		(uuid "b1f74b3a-b552-4ee8-bb93-ae5214daa8ef")
-	)
-	(no_connect
-		(at 264.16 209.55)
-		(uuid "b71d652e-52ab-4855-aab4-abb2d6cbe9cb")
-	)
-	(no_connect
-		(at 248.92 243.84)
-		(uuid "bb7f87b4-ed18-4bc2-94c8-da40854e086e")
 	)
 	(wire
 		(pts
@@ -4514,7 +4304,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 55.88) (xy 274.32 55.88)
+			(xy 270.51 55.88) (xy 275.59 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5654,133 +5444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM2901")
-		(at 255.27 172.72 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "244a44ab-573a-47cf-be6e-95569fb1c82c")
-		(property "Reference" "U21"
-			(at 255.27 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2901"
-			(at 255.27 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 254 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
-			(at 256.54 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
-			(at 255.27 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PART" "C20345483"
-			(at 255.27 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "d276ff07-49e4-4f3f-a27c-5b0a21dad286")
-		)
-		(pin "5"
-			(uuid "24227d7c-3e08-4494-9c96-5c95951fb1b1")
-		)
-		(pin "11"
-			(uuid "c3cfb587-7281-4f32-ba93-2ae51288b2d1")
-		)
-		(pin "1"
-			(uuid "922b6a9e-d4e2-41ed-a474-a370ace92b6a")
-		)
-		(pin "9"
-			(uuid "1ceb59e6-b4b6-413a-9805-4bd3e2aebf8f")
-		)
-		(pin "14"
-			(uuid "7eafd099-be5e-4c08-b369-9e9e1a5b3977")
-		)
-		(pin "3"
-			(uuid "c4cb4cb1-1b6b-428c-a8fb-7ca206d1024e")
-		)
-		(pin "12"
-			(uuid "188f439c-8d9d-4685-ae07-c58c3e5a891b")
-		)
-		(pin "2"
-			(uuid "990ee2d9-9f33-41e3-94cb-0f65e5554172")
-		)
-		(pin "7"
-			(uuid "f2f5b12d-14b6-45f5-8789-5edbb1002592")
-		)
-		(pin "8"
-			(uuid "979e7ffa-84a6-4957-beac-e44552535410")
-		)
-		(pin "6"
-			(uuid "078ebad8-916b-4554-bf72-04c625a76b18")
-		)
-		(pin "4"
-			(uuid "afddbdb3-a4fa-4456-abd0-91bd9c351f38")
-		)
-		(pin "13"
-			(uuid "ebd9b8c2-18c4-492e-b356-1cd4346033dc")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
-					(reference "U21")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 201.93 99.06 0)
 		(unit 1)
@@ -6507,120 +6170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:TLV3501AIDBV")
-		(at 254 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c3cdb94-261c-4847-92fa-c7eee3d0985c")
-		(property "Reference" "U20"
-			(at 266.7 49.4598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV3501AIDBV"
-			(at 266.7 51.9998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 254 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3501.pdf"
-			(at 254 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-Speed Comparator, 4.5-ns, Rail-to-Rail, Push-Pull CMOS Output, SOT-23-6"
-			(at 254 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALT" "1"
-			(at 254 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PART" "C5359092"
-			(at 254 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d898928-653b-4e5d-b551-cdc661e174fd")
-		)
-		(pin "4"
-			(uuid "e6de7294-1eb4-4921-acba-f00e73ec510c")
-		)
-		(pin "5"
-			(uuid "65ded2fd-abee-4914-aa16-f041577b38fd")
-		)
-		(pin "6"
-			(uuid "6f1639ba-6dec-4ab1-bf64-eb75023e05e3")
-		)
-		(pin "3"
-			(uuid "19b9b949-0401-4d74-b699-1f5520234285")
-		)
-		(pin "2"
-			(uuid "d1adcb36-2432-4fe5-a8e0-e6288e0bdb7b")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
-					(reference "U20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 68.58 222.25 0)
 		(unit 1)
@@ -7009,6 +6558,98 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:TLV3501AIDBV")
+		(at 254 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5732b4c6-b328-4caf-8d72-1c8eb4072c8e")
+		(property "Reference" "U18"
+			(at 266.7 49.4598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV3501AIDBV"
+			(at 266.7 51.9998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 254 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3501.pdf"
+			(at 254 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Speed Comparator, 4.5-ns, Rail-to-Rail, Push-Pull CMOS Output, SOT-23-6"
+			(at 254 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fc7a294d-6123-4d66-bed1-41c75517e8e6")
+		)
+		(pin "5"
+			(uuid "3c53ca34-c8c4-4c98-a732-8c0eb74de4fb")
+		)
+		(pin "1"
+			(uuid "9eb50502-3148-4668-bf95-88d5124d4d8f")
+		)
+		(pin "4"
+			(uuid "045068f4-8792-47bf-aaa9-17baf0653733")
+		)
+		(pin "3"
+			(uuid "b9698c57-2030-440c-8ffb-e22c4f29efee")
+		)
+		(pin "6"
+			(uuid "73d5b84d-c6f5-4445-83ff-8405f1cb6dba")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -7547,6 +7188,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:LM2903")
+		(at 255.27 172.72 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "657722d6-d3ca-4c3e-a827-1332bb5d1c48")
+		(property "Reference" "U20"
+			(at 255.27 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2903"
+			(at 255.27 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 255.27 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 255.27 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
+			(at 255.27 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76e5a8c8-6e12-4000-8b20-c472ffd4d2be")
+		)
+		(pin "8"
+			(uuid "aad83d19-c332-4f5d-a90b-28c6869911ed")
+		)
+		(pin "7"
+			(uuid "273972ac-9506-4169-a7e4-2718806f105e")
+		)
+		(pin "3"
+			(uuid "87689380-0f64-473d-b146-37bb74c7c3ed")
+		)
+		(pin "5"
+			(uuid "dd84ed85-dd13-4688-8544-8d73609753a2")
+		)
+		(pin "4"
+			(uuid "eac99764-c386-4d24-a324-c40f158f0e80")
+		)
+		(pin "2"
+			(uuid "1b05d52e-5f92-421e-8061-e2f58969b006")
+		)
+		(pin "6"
+			(uuid "594c5d9e-22af-4aea-bc76-df95545925d9")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
+					(reference "U20")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 222.25 116.84 0)
 		(unit 1)
@@ -7864,9 +7603,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM2901")
-		(at 130.81 66.04 0)
-		(unit 5)
+		(lib_id "Diode:BAT54J")
+		(at 279.4 55.88 180)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7874,31 +7613,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7218790e-5777-4546-a87c-2605df7191cd")
-		(property "Reference" "U21"
-			(at 129.54 64.7699 0)
+		(uuid "74a5423b-f7f7-4407-a877-7f558c44f8fd")
+		(property "Reference" "D5"
+			(at 279.7175 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "LM2901"
-			(at 129.54 67.3099 0)
+		(property "Value" "BAT54J"
+			(at 279.7175 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 129.54 63.5 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 279.4 51.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7908,8 +7645,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
-			(at 132.08 60.96 0)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 279.4 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7919,8 +7656,8 @@
 				)
 			)
 		)
-		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
-			(at 130.81 66.04 0)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 279.4 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,65 +7666,18 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC PART" "C20345483"
-			(at 130.81 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "94c27963-4fcb-4b58-ad03-c8e878059301")
-		)
-		(pin "5"
-			(uuid "24227d7c-3e08-4494-9c96-5c95951fb1b2")
-		)
-		(pin "11"
-			(uuid "8c8d0bdd-3565-4e44-8e45-69d0cff0e7e5")
-		)
-		(pin "1"
-			(uuid "922b6a9e-d4e2-41ed-a474-a370ace92b6b")
-		)
-		(pin "9"
-			(uuid "1ceb59e6-b4b6-413a-9805-4bd3e2aebf90")
-		)
-		(pin "14"
-			(uuid "7eafd099-be5e-4c08-b369-9e9e1a5b3978")
-		)
-		(pin "3"
-			(uuid "c4cb4cb1-1b6b-428c-a8fb-7ca206d1024f")
-		)
-		(pin "12"
-			(uuid "188f439c-8d9d-4685-ae07-c58c3e5a891c")
 		)
 		(pin "2"
-			(uuid "990ee2d9-9f33-41e3-94cb-0f65e5554173")
+			(uuid "96224991-179e-442d-9fc5-618dd428e757")
 		)
-		(pin "7"
-			(uuid "f2f5b12d-14b6-45f5-8789-5edbb1002593")
-		)
-		(pin "8"
-			(uuid "979e7ffa-84a6-4957-beac-e44552535411")
-		)
-		(pin "6"
-			(uuid "078ebad8-916b-4554-bf72-04c625a76b19")
-		)
-		(pin "4"
-			(uuid "afddbdb3-a4fa-4456-abd0-91bd9c351f39")
-		)
-		(pin "13"
-			(uuid "df5a746a-a71b-40e5-8472-b4161b42b886")
+		(pin "1"
+			(uuid "2a402962-d12e-4e59-9afb-2e8bfb6b48d2")
 		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
-					(reference "U21")
-					(unit 5)
+					(reference "D5")
+					(unit 1)
 				)
 			)
 		)
@@ -9687,122 +9377,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:BAT54,215")
-		(at 281.94 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1af1a69-8f4a-422e-8855-453d7b58cd39")
-		(property "Reference" "D5"
-			(at 279.275 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54,215"
-			(at 279.275 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 281.94 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_NXP_BAT54-215_BAT54-215_C85084.html"
-			(at 281.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 281.94 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Nexperia(安世)"
-			(at 281.94 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BAT54,215"
-			(at 281.94 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C85084"
-			(at 281.94 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1010ce38-44e2-45b4-a5ee-0d9b59d4d063")
-		)
-		(pin "2"
-			(uuid "e0a35b2f-7ed8-4f92-81f2-1290bd98dc9c")
-		)
-		(pin "3"
-			(uuid "a4ffdc88-3410-492b-b54c-598556dad386")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:HYG015N03LS1C2")
 		(at 63.5 34.29 90)
 		(unit 1)
@@ -9942,6 +9516,104 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
 					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM2903")
+		(at 254 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2964950-efc3-4f76-8970-bda8429e3d11")
+		(property "Reference" "U20"
+			(at 254 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2903"
+			(at 254 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 254 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 254 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
+			(at 254 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76e5a8c8-6e12-4000-8b20-c472ffd4d2bf")
+		)
+		(pin "8"
+			(uuid "aad83d19-c332-4f5d-a90b-28c6869911ee")
+		)
+		(pin "7"
+			(uuid "273972ac-9506-4169-a7e4-2718806f105f")
+		)
+		(pin "3"
+			(uuid "87689380-0f64-473d-b146-37bb74c7c3ee")
+		)
+		(pin "5"
+			(uuid "dd84ed85-dd13-4688-8544-8d73609753a3")
+		)
+		(pin "4"
+			(uuid "eac99764-c386-4d24-a324-c40f158f0e81")
+		)
+		(pin "2"
+			(uuid "1b05d52e-5f92-421e-8061-e2f58969b007")
+		)
+		(pin "6"
+			(uuid "594c5d9e-22af-4aea-bc76-df95545925da")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -11208,133 +10880,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Comparator:LM2901")
-		(at 256.54 246.38 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de84bb0e-80e0-49be-9ebe-55978262a70a")
-		(property "Reference" "U21"
-			(at 256.54 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2901"
-			(at 256.54 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 255.27 243.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
-			(at 257.81 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
-			(at 256.54 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PART" "C20345483"
-			(at 256.54 246.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "94c27963-4fcb-4b58-ad03-c8e878059302")
-		)
-		(pin "5"
-			(uuid "24227d7c-3e08-4494-9c96-5c95951fb1b3")
-		)
-		(pin "11"
-			(uuid "8c8d0bdd-3565-4e44-8e45-69d0cff0e7e6")
-		)
-		(pin "1"
-			(uuid "922b6a9e-d4e2-41ed-a474-a370ace92b6c")
-		)
-		(pin "9"
-			(uuid "6b2fadf8-83b7-41fb-bd21-79e40c3ac404")
-		)
-		(pin "14"
-			(uuid "2151a3ce-ef09-49d3-ab97-1f3cacd0948f")
-		)
-		(pin "3"
-			(uuid "c4cb4cb1-1b6b-428c-a8fb-7ca206d10250")
-		)
-		(pin "12"
-			(uuid "188f439c-8d9d-4685-ae07-c58c3e5a891d")
-		)
-		(pin "2"
-			(uuid "990ee2d9-9f33-41e3-94cb-0f65e5554174")
-		)
-		(pin "7"
-			(uuid "f2f5b12d-14b6-45f5-8789-5edbb1002594")
-		)
-		(pin "8"
-			(uuid "6ce62a10-b5a7-41cb-993a-0f3d43623129")
-		)
-		(pin "6"
-			(uuid "078ebad8-916b-4554-bf72-04c625a76b1a")
-		)
-		(pin "4"
-			(uuid "afddbdb3-a4fa-4456-abd0-91bd9c351f3a")
-		)
-		(pin "13"
-			(uuid "df5a746a-a71b-40e5-8472-b4161b42b887")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
-					(reference "U21")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 54.61 209.55 0)
 		(unit 1)
@@ -11729,6 +11274,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:LM2903")
+		(at 130.81 66.04 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e426f503-e561-4b3b-a126-4f509c4ed39a")
+		(property "Reference" "U20"
+			(at 129.54 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM2903"
+			(at 129.54 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/SOP-8/TSSOP-8/VSSOP-8"
+			(at 130.81 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76e5a8c8-6e12-4000-8b20-c472ffd4d2c0")
+		)
+		(pin "8"
+			(uuid "aad83d19-c332-4f5d-a90b-28c6869911ef")
+		)
+		(pin "7"
+			(uuid "273972ac-9506-4169-a7e4-2718806f1060")
+		)
+		(pin "3"
+			(uuid "87689380-0f64-473d-b146-37bb74c7c3ef")
+		)
+		(pin "5"
+			(uuid "dd84ed85-dd13-4688-8544-8d73609753a4")
+		)
+		(pin "4"
+			(uuid "eac99764-c386-4d24-a324-c40f158f0e82")
+		)
+		(pin "2"
+			(uuid "1b05d52e-5f92-421e-8061-e2f58969b008")
+		)
+		(pin "6"
+			(uuid "594c5d9e-22af-4aea-bc76-df95545925db")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
+					(reference "U20")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 251.46 35.56 0)
 		(unit 1)
@@ -11801,133 +11446,6 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
 					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM2901")
-		(at 254 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e73c8a8b-5767-48ba-97b1-7a4c70b81866")
-		(property "Reference" "U21"
-			(at 254 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2901"
-			(at 254 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 252.73 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
-			(at 255.27 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
-			(at 254 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PART" "C20345483"
-			(at 254 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "94c27963-4fcb-4b58-ad03-c8e878059303")
-		)
-		(pin "5"
-			(uuid "24227d7c-3e08-4494-9c96-5c95951fb1b4")
-		)
-		(pin "11"
-			(uuid "8c8d0bdd-3565-4e44-8e45-69d0cff0e7e7")
-		)
-		(pin "1"
-			(uuid "922b6a9e-d4e2-41ed-a474-a370ace92b6d")
-		)
-		(pin "9"
-			(uuid "1ceb59e6-b4b6-413a-9805-4bd3e2aebf92")
-		)
-		(pin "14"
-			(uuid "7eafd099-be5e-4c08-b369-9e9e1a5b397a")
-		)
-		(pin "3"
-			(uuid "c4cb4cb1-1b6b-428c-a8fb-7ca206d10251")
-		)
-		(pin "12"
-			(uuid "188f439c-8d9d-4685-ae07-c58c3e5a891e")
-		)
-		(pin "2"
-			(uuid "990ee2d9-9f33-41e3-94cb-0f65e5554175")
-		)
-		(pin "7"
-			(uuid "f2f5b12d-14b6-45f5-8789-5edbb1002595")
-		)
-		(pin "8"
-			(uuid "979e7ffa-84a6-4957-beac-e44552535413")
-		)
-		(pin "6"
-			(uuid "078ebad8-916b-4554-bf72-04c625a76b1b")
-		)
-		(pin "4"
-			(uuid "afddbdb3-a4fa-4456-abd0-91bd9c351f3b")
-		)
-		(pin "13"
-			(uuid "df5a746a-a71b-40e5-8472-b4161b42b888")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
-					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -12252,133 +11770,6 @@
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
 					(reference "#PWR049")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Comparator:LM2901")
-		(at 256.54 209.55 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1738f01-02b7-4d19-a3cc-1655b07b07b8")
-		(property "Reference" "U21"
-			(at 256.54 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2901"
-			(at 256.54 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 255.27 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm2901.pdf"
-			(at 257.81 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Quad Differential Comparators, DIP-14/SOIC-14/TSSOP-14"
-			(at 256.54 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC PART" "C20345483"
-			(at 256.54 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "94c27963-4fcb-4b58-ad03-c8e8780592ff")
-		)
-		(pin "5"
-			(uuid "24227d7c-3e08-4494-9c96-5c95951fb1b0")
-		)
-		(pin "11"
-			(uuid "8c8d0bdd-3565-4e44-8e45-69d0cff0e7e3")
-		)
-		(pin "1"
-			(uuid "015f2877-ccce-4062-b95d-e83016665a29")
-		)
-		(pin "9"
-			(uuid "1ceb59e6-b4b6-413a-9805-4bd3e2aebf8e")
-		)
-		(pin "14"
-			(uuid "7eafd099-be5e-4c08-b369-9e9e1a5b3976")
-		)
-		(pin "3"
-			(uuid "c4cb4cb1-1b6b-428c-a8fb-7ca206d1024d")
-		)
-		(pin "12"
-			(uuid "188f439c-8d9d-4685-ae07-c58c3e5a891a")
-		)
-		(pin "2"
-			(uuid "990ee2d9-9f33-41e3-94cb-0f65e5554171")
-		)
-		(pin "7"
-			(uuid "07015aed-fc19-4da4-bf69-b8d3988aa3fc")
-		)
-		(pin "8"
-			(uuid "979e7ffa-84a6-4957-beac-e4455253540f")
-		)
-		(pin "6"
-			(uuid "a20a78ae-386c-4152-9d06-5d0c7fcf2dcc")
-		)
-		(pin "4"
-			(uuid "afddbdb3-a4fa-4456-abd0-91bd9c351f37")
-		)
-		(pin "13"
-			(uuid "df5a746a-a71b-40e5-8472-b4161b42b884")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/4380f3ef-c4d9-44b0-bf49-4e0cf7323e12"
-					(reference "U21")
-					(unit 2)
 				)
 			)
 		)

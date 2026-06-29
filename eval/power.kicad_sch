@@ -2992,6 +2992,18 @@
 		(uuid "0220b806-4b28-4f91-909f-d795ae7ceef5")
 	)
 	(junction
+		(at 151.13 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0243203e-c9c6-45d9-bea2-600e1baf2691")
+	)
+	(junction
+		(at 151.13 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07eceae0-8b24-4e6b-87f8-db9c0f6253e8")
+	)
+	(junction
 		(at 153.67 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3016,12 +3028,6 @@
 		(uuid "0e1ef41c-6c28-40a6-803d-afec00203b16")
 	)
 	(junction
-		(at 148.59 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13b8511f-d23f-44c5-b178-bc037e603968")
-	)
-	(junction
 		(at 205.74 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3032,18 +3038,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b5d2373-3a21-447d-94b7-bd494a2f84c3")
-	)
-	(junction
-		(at 153.67 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20786218-3b48-4484-a39a-71073f14c075")
-	)
-	(junction
-		(at 146.05 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28aa24e5-2632-47cb-8803-dc1ca2168b97")
 	)
 	(junction
 		(at 210.82 104.14)
@@ -3058,22 +3052,22 @@
 		(uuid "36ed86f5-e237-4c1f-8153-60736903111a")
 	)
 	(junction
-		(at 146.05 76.2)
+		(at 153.67 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "377225ed-9ae4-4acb-b77a-95bbe111f66e")
-	)
-	(junction
-		(at 151.13 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "396f2661-1bae-480f-bf46-4dd781775e86")
+		(uuid "37ceecb0-3c79-4053-bfbc-20c5497b8618")
 	)
 	(junction
 		(at 76.2 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a97c4a4-6ed2-4b18-a057-bae96f24cc97")
+	)
+	(junction
+		(at 148.59 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c6f53e9-e600-46df-b7b7-f4517142da0c")
 	)
 	(junction
 		(at 102.87 127)
@@ -3100,22 +3094,10 @@
 		(uuid "517d5a5b-649b-4784-a608-7a55be1c062e")
 	)
 	(junction
-		(at 151.13 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54a509f1-e430-4b4b-8ca7-e7424cd9fc31")
-	)
-	(junction
 		(at 80.01 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56c6245d-19da-47b7-af34-94f153859079")
-	)
-	(junction
-		(at 148.59 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5941dd40-a370-47ae-9f6c-b08455830b69")
 	)
 	(junction
 		(at 139.7 247.65)
@@ -3136,34 +3118,28 @@
 		(uuid "5fdad49a-c888-4292-9dfb-0979d1d3480c")
 	)
 	(junction
-		(at 151.13 91.44)
+		(at 148.59 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "676af6f4-2acd-40da-b81c-31f9e48c8bdf")
+		(uuid "624ca9ad-4727-4131-862b-afa098f379a3")
 	)
 	(junction
-		(at 153.67 93.98)
+		(at 146.05 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a86b07e-1f98-42d2-803e-c142c3cfd873")
-	)
-	(junction
-		(at 153.67 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "719bbf08-a314-4047-af9f-ac9d1af81ec8")
-	)
-	(junction
-		(at 128.27 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74b63f50-70d8-45a8-a6c1-c26f423c0150")
+		(uuid "6c9c0324-14eb-42ae-9141-64e11c780e70")
 	)
 	(junction
 		(at 80.01 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ab0f777-5694-4346-8c73-5932b5f6f344")
+	)
+	(junction
+		(at 153.67 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d84c8a0-c267-4b24-ab4b-c39b76eded28")
 	)
 	(junction
 		(at 224.79 93.98)
@@ -3182,6 +3158,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93852d7d-bb0d-41ef-b2c3-d561d0135e57")
+	)
+	(junction
+		(at 146.05 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93a30746-f1a8-41d7-b098-a55b7d8f97e3")
 	)
 	(junction
 		(at 132.08 57.15)
@@ -3208,6 +3190,12 @@
 		(uuid "a0074ed5-cc2c-4f05-9ecb-697b2440abed")
 	)
 	(junction
+		(at 153.67 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c2566f-71c0-43e7-be67-7312fda45e4b")
+	)
+	(junction
 		(at 168.91 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3218,6 +3206,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a877a2e4-6ffa-4142-83d3-e37b1ba8b070")
+	)
+	(junction
+		(at 151.13 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0c9b856-9a80-48f1-91fd-74224dc629cd")
 	)
 	(junction
 		(at 57.15 57.15)
@@ -3256,34 +3250,22 @@
 		(uuid "bbf858a8-4a4e-4407-b9a1-7ca3b94475d2")
 	)
 	(junction
-		(at 153.67 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc8faa09-3b90-47b3-b1cb-dabc988349de")
-	)
-	(junction
 		(at 107.95 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c08f2a2d-b131-4552-814d-86dc681fcff2")
 	)
 	(junction
-		(at 148.59 111.76)
+		(at 153.67 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7a22374-99d5-4149-8e41-2bcf7d14632e")
+		(uuid "c541d102-2fad-4559-a45c-09a213a6d803")
 	)
 	(junction
-		(at 151.13 111.76)
+		(at 151.13 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d11e0780-1ce8-45b7-bf47-8f0c43c771f3")
-	)
-	(junction
-		(at 146.05 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3205abf-b2f3-4b13-8053-93ff6594ff04")
+		(uuid "c7cbc11d-815b-411f-8b71-61914ce24ba1")
 	)
 	(junction
 		(at 80.01 111.76)
@@ -3292,10 +3274,22 @@
 		(uuid "d34081fc-a1f7-4ff0-9f48-5be28bcbcb80")
 	)
 	(junction
-		(at 148.59 96.52)
+		(at 146.05 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da8240ba-db7e-4570-9ae7-83fb95625fde")
+		(uuid "d963816c-f108-4d7d-ac94-562d783afda6")
+	)
+	(junction
+		(at 148.59 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddb9696e-4f3d-4da3-82b2-37aa5cc05fcd")
+	)
+	(junction
+		(at 148.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c7d732-3750-453f-97bc-b54282d02bdc")
 	)
 	(junction
 		(at 142.24 62.23)
@@ -3308,12 +3302,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebb56c0c-a3dd-4a3a-b585-966dabab3842")
-	)
-	(junction
-		(at 153.67 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecfb2eb2-c09c-4a44-9ae9-20c9b6a56c30")
 	)
 	(junction
 		(at 80.01 109.22)
@@ -3340,6 +3328,12 @@
 		(uuid "f3cf7309-8c12-4a1d-8fb8-bd65ed0ff707")
 	)
 	(junction
+		(at 146.05 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f77fefd3-7d1e-456c-836e-8c5ef576e957")
+	)
+	(junction
 		(at 105.41 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3350,12 +3344,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff08f9c9-6e59-43b1-ba91-0a9697d7951e")
-	)
-	(junction
-		(at 146.05 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffe682de-e7a3-4f04-8d95-18c152f2a838")
 	)
 	(wire
 		(pts
@@ -3419,16 +3407,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 111.76) (xy 148.59 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0547b6e9-0afa-427d-9f1a-806ca4b892ce")
-	)
-	(wire
-		(pts
 			(xy 205.74 104.14) (xy 208.28 104.14)
 		)
 		(stroke
@@ -3449,23 +3427,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 91.44) (xy 153.67 91.44)
+			(xy 148.59 71.12) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a9b3743-a5d6-4776-a18a-bb184e2ef642")
-	)
-	(wire
-		(pts
-			(xy 140.97 111.76) (xy 146.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c463d78-055a-46c6-85aa-62ef22499cf0")
+		(uuid "0d1d9463-79e9-48cf-bb30-36168def4aef")
 	)
 	(wire
 		(pts
@@ -3476,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "0d886669-86d2-4fb1-afa8-810e18e2ea79")
+	)
+	(wire
+		(pts
+			(xy 148.59 86.36) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de0dba5-35f4-4df9-90f9-d6dd3eaf0681")
 	)
 	(wire
 		(pts
@@ -3549,16 +3527,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 93.98) (xy 146.05 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24dfe053-1dfb-4925-bc6a-4f4b86f8307f")
-	)
-	(wire
-		(pts
 			(xy 187.96 93.98) (xy 200.66 93.98)
 		)
 		(stroke
@@ -3569,23 +3537,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 93.98) (xy 146.05 93.98)
+			(xy 148.59 109.22) (xy 151.13 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25c97329-5817-44e1-bf40-c3100859e788")
-	)
-	(wire
-		(pts
-			(xy 148.59 96.52) (xy 151.13 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28170d23-3583-4253-9caf-9311fb14ae9d")
+		(uuid "28e69ea5-8df6-404d-8a4c-eb0a840095c6")
 	)
 	(wire
 		(pts
@@ -3619,33 +3577,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 76.2) (xy 140.97 76.2)
+			(xy 118.11 93.98) (xy 140.97 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "355bf41a-1310-44d7-8b09-c2b89fd9dcb0")
-	)
-	(wire
-		(pts
-			(xy 148.59 111.76) (xy 151.13 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39b73b5b-0ffe-4e9b-873f-ccc68d36e279")
-	)
-	(wire
-		(pts
-			(xy 151.13 76.2) (xy 153.67 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b06991b-a77f-4023-b38f-90957150c685")
+		(uuid "383343a2-e376-4f8c-b339-a92a956843fc")
 	)
 	(wire
 		(pts
@@ -3709,23 +3647,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 151.13 91.44)
+			(xy 146.05 109.22) (xy 148.59 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4312ab89-7984-4e0d-86e2-9bac4e427cf2")
-	)
-	(wire
-		(pts
-			(xy 153.67 91.44) (xy 153.67 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46220a43-725a-456e-9fcb-b7dd1da5d416")
+		(uuid "431917d6-2795-43c5-bb4a-7d7afba63ed2")
 	)
 	(wire
 		(pts
@@ -3769,7 +3697,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 57.15) (xy 153.67 76.2)
+			(xy 153.67 57.15) (xy 153.67 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3796,16 +3724,6 @@
 			(type default)
 		)
 		(uuid "503ad60b-81c3-4367-b215-ff5a4ad75725")
-	)
-	(wire
-		(pts
-			(xy 151.13 111.76) (xy 153.67 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5122f6aa-641c-4247-bab3-9b2a5f08355b")
 	)
 	(wire
 		(pts
@@ -3919,6 +3837,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 71.12) (xy 153.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f94603-b7a5-420f-8fa7-5dcf93ca6f0f")
+	)
+	(wire
+		(pts
 			(xy 139.7 250.19) (xy 139.7 247.65)
 		)
 		(stroke
@@ -3926,26 +3854,6 @@
 			(type default)
 		)
 		(uuid "64178c41-34b5-47e2-b257-e9fc2e436cf1")
-	)
-	(wire
-		(pts
-			(xy 146.05 91.44) (xy 148.59 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65162994-fb6d-4529-8a96-f54e7d500ebb")
-	)
-	(wire
-		(pts
-			(xy 140.97 76.2) (xy 140.97 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6dfb32-5967-420e-986e-8478187dd74c")
 	)
 	(wire
 		(pts
@@ -3959,16 +3867,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 96.52) (xy 140.97 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "743d0dad-94cf-4294-9ba0-570f60c4c1c1")
-	)
-	(wire
-		(pts
 			(xy 90.17 57.15) (xy 90.17 80.01)
 		)
 		(stroke
@@ -3979,6 +3877,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 111.76) (xy 153.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d8c815a-ce62-4da9-8c44-9d496db77b09")
+	)
+	(wire
+		(pts
 			(xy 71.12 165.1) (xy 71.12 167.64)
 		)
 		(stroke
@@ -3986,6 +3894,16 @@
 			(type default)
 		)
 		(uuid "7ee50b83-cb4f-402a-9435-deca6ba46340")
+	)
+	(wire
+		(pts
+			(xy 140.97 111.76) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f03682c-b90a-48e7-92a5-3486747d1ac2")
 	)
 	(wire
 		(pts
@@ -4019,6 +3937,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 88.9) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd31bbc-ba03-4169-a9e5-93793e429721")
+	)
+	(wire
+		(pts
 			(xy 76.2 57.15) (xy 69.85 57.15)
 		)
 		(stroke
@@ -4039,16 +3967,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 153.67 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93982d87-005e-4fb1-855e-f3b1eeb56523")
-	)
-	(wire
-		(pts
 			(xy 76.2 58.42) (xy 76.2 57.15)
 		)
 		(stroke
@@ -4056,6 +3974,16 @@
 			(type default)
 		)
 		(uuid "94ea1574-3b05-4912-90e8-4d3278975fd7")
+	)
+	(wire
+		(pts
+			(xy 146.05 93.98) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95701f1d-b12c-4f67-85e1-61b998f66f3b")
 	)
 	(wire
 		(pts
@@ -4199,16 +4127,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 93.98) (xy 153.67 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9cbdeba-47fc-40a2-abf6-ef616ba70e4d")
-	)
-	(wire
-		(pts
 			(xy 92.71 245.11) (xy 96.52 245.11)
 		)
 		(stroke
@@ -4216,6 +4134,16 @@
 			(type default)
 		)
 		(uuid "babe90bd-2207-4d22-9c9a-4c2fbbe2e2eb")
+	)
+	(wire
+		(pts
+			(xy 146.05 86.36) (xy 146.05 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3f4932-1297-4f3e-ac7f-6093e6b7a43c")
 	)
 	(wire
 		(pts
@@ -4249,23 +4177,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 88.9) (xy 118.11 88.9)
+			(xy 118.11 88.9) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c0188417-1060-4f6c-b5e3-873d05482f7f")
-	)
-	(wire
-		(pts
-			(xy 118.11 96.52) (xy 140.97 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c097392d-58b8-4135-a7bb-f1ec9c0cbcb0")
 	)
 	(wire
 		(pts
@@ -4276,6 +4194,16 @@
 			(type default)
 		)
 		(uuid "c393e457-14fd-4093-938f-96bd6634870c")
+	)
+	(wire
+		(pts
+			(xy 118.11 96.52) (xy 120.65 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5940e83-5f74-4a79-b4d2-b89174b1b2cb")
 	)
 	(wire
 		(pts
@@ -4319,16 +4247,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 114.3) (xy 153.67 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc657adb-a629-4ea5-bee5-56a9d9110b67")
-	)
-	(wire
-		(pts
 			(xy 107.95 163.83) (xy 120.65 163.83)
 		)
 		(stroke
@@ -4369,6 +4287,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 71.12) (xy 148.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46dd9c1-29ec-4f17-ba7a-d5b57a9b4730")
+	)
+	(wire
+		(pts
 			(xy 92.71 212.09) (xy 96.52 212.09)
 		)
 		(stroke
@@ -4386,16 +4314,6 @@
 			(type default)
 		)
 		(uuid "d6947d4a-2be3-4d6d-a82f-1f200c82d341")
-	)
-	(wire
-		(pts
-			(xy 148.59 76.2) (xy 151.13 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7b1612e-033f-4dd4-8176-aee061d78068")
 	)
 	(wire
 		(pts
@@ -4446,6 +4364,26 @@
 			(type default)
 		)
 		(uuid "e8d952ba-e21d-4c13-9f69-d54c2aa73130")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e40976-48c8-4fde-ab95-cfbb7c21d282")
+	)
+	(wire
+		(pts
+			(xy 146.05 109.22) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee20f2b9-0476-4648-9bd2-9a9f00c8663b")
 	)
 	(wire
 		(pts
@@ -4579,13 +4517,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 91.44) (xy 146.05 91.44)
+			(xy 151.13 86.36) (xy 151.13 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fbacc745-246e-450f-a7fe-84483f489e7b")
+		(uuid "fecaf8be-e3e4-4635-bb3a-85467e701bc3")
 	)
 	(image
 		(at -69 58)
@@ -11001,7 +10939,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 153.67 114.3 0)
+		(at 146.05 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11012,7 +10950,7 @@
 		(fields_autoplaced yes)
 		(uuid "39eff55c-0db4-41c2-b0be-72ec124fb258")
 		(property "Reference" "#PWR01"
-			(at 153.67 119.38 0)
+			(at 146.05 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11023,7 +10961,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 153.543 118.11 0)
+			(at 145.923 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11033,7 +10971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 115.57 0)
+			(at 146.05 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +10982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 115.57 0)
+			(at 146.05 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +10993,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 153.67 114.3 0)
+			(at 146.05 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,6 +11598,215 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:BSC0702LS")
+		(at 149.86 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ed19616-212f-4a27-a2e9-27cea30e09a8")
+		(property "Reference" "Q6"
+			(at 140.208 79.502 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC0702LS"
+			(at 140.208 76.962 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:PG-TDSON-8_L5.0-W6.0-P1.27-BL-EP"
+			(at 161.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSC0702LS_C501503.html"
+			(at 163.83 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon(英飞凌)"
+			(at 166.37 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BSC0702LS"
+			(at 168.91 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C501503"
+			(at 171.45 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 149.86 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 149.86 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 149.86 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 149.86 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 149.86 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 149.86 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 149.86 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b038118-e2fc-43f8-a733-932bc3f2206c")
+		)
+		(pin "2"
+			(uuid "8fd64f5f-5951-411c-bfb1-3cf9913b38a5")
+		)
+		(pin "3"
+			(uuid "a36c97fa-2633-48e4-9db7-ff02c02ab7d0")
+		)
+		(pin "4"
+			(uuid "5794d401-4ac8-4430-8d73-883cefb33350")
+		)
+		(pin "5"
+			(uuid "e76c1b4a-0018-468b-a239-c4e531f500f4")
+		)
+		(pin "6"
+			(uuid "fe0d89db-ce7d-4102-b713-af25f5ee16c5")
+		)
+		(pin "7"
+			(uuid "945e13c1-5f12-48ee-b7ba-024c634469f7")
+		)
+		(pin "8"
+			(uuid "8b07ca60-0294-4296-92bd-b945cef5117e")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -13474,7 +13621,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:BSC0702LS")
-		(at 149.86 104.14 270)
+		(at 149.86 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13482,9 +13629,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "552570dc-2ae1-4918-80dc-a66e540fad4a")
-		(property "Reference" "Q2"
-			(at 159.512 103.378 90)
+		(uuid "53bb6d34-b8bd-44c4-8700-32d1fe67740e")
+		(property "Reference" "Q1"
+			(at 137.16 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13495,7 +13642,7 @@
 			)
 		)
 		(property "Value" "BSC0702LS"
-			(at 159.512 105.918 90)
+			(at 140.208 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13506,7 +13653,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:PG-TDSON-8_L5.0-W6.0-P1.27-BL-EP"
-			(at 138.43 104.14 0)
+			(at 161.29 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13517,7 +13664,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSC0702LS_C501503.html"
-			(at 135.89 104.14 0)
+			(at 163.83 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13528,7 +13675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 104.14 0)
+			(at 149.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13539,7 +13686,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 133.35 104.14 0)
+			(at 166.37 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13550,7 +13697,7 @@
 			)
 		)
 		(property "MPN" "BSC0702LS"
-			(at 130.81 104.14 0)
+			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13561,7 +13708,7 @@
 			)
 		)
 		(property "LCSC Part" "C501503"
-			(at 128.27 104.14 0)
+			(at 171.45 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13572,7 +13719,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 149.86 104.14 90)
+			(at 149.86 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13583,7 +13730,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 149.86 104.14 90)
+			(at 149.86 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13594,7 +13741,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 149.86 104.14 90)
+			(at 149.86 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13605,7 +13752,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 149.86 104.14 90)
+			(at 149.86 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13616,7 +13763,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 149.86 104.14 90)
+			(at 149.86 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13627,7 +13774,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 149.86 104.14 90)
+			(at 149.86 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13638,7 +13785,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 149.86 104.14 90)
+			(at 149.86 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13649,33 +13796,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "d755b732-bdec-41bc-9bc8-93461d7236a5")
+			(uuid "46eaede8-360a-4320-97de-dcd317072386")
 		)
 		(pin "2"
-			(uuid "d296f2f5-2b8a-4763-845c-7e85144bf909")
+			(uuid "40a1a570-b1c4-425a-ac2f-e035bede2b1e")
 		)
 		(pin "3"
-			(uuid "8eea707a-94e8-4230-9889-9cdfecfe6a32")
+			(uuid "7882103e-3747-412e-9df0-492bb9505b96")
 		)
 		(pin "4"
-			(uuid "0b04d816-f9f2-4043-9087-4f156a76e800")
+			(uuid "0ea11c8d-0b66-47e4-9689-a0ecb442c02c")
 		)
 		(pin "5"
-			(uuid "15da7204-2a0d-4de6-99ea-0781e0a34698")
+			(uuid "5760c5b3-9d02-4e17-ba8d-1b549a29852f")
 		)
 		(pin "6"
-			(uuid "9d2c32ff-6c8d-4d3a-81fb-c4226bbce317")
+			(uuid "721dad61-8812-424e-817e-08bb0429921f")
 		)
 		(pin "7"
-			(uuid "1dd944d2-109b-430f-8409-ae9b8188503c")
+			(uuid "3d345f98-a954-4b9e-9825-8102fa0e2719")
 		)
 		(pin "8"
-			(uuid "f1fae019-e510-4dd5-9f5d-ff5fc6c3a7d6")
+			(uuid "2c37419a-1a63-40c7-b7cc-1945cc02d51b")
 		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -15518,215 +15665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:BSC0702LS")
-		(at 149.86 83.82 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7a3d53b2-e53a-4f5f-97d5-6deed1d8635b")
-		(property "Reference" "Q6"
-			(at 159.512 83.058 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC0702LS"
-			(at 159.512 85.598 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:PG-TDSON-8_L5.0-W6.0-P1.27-BL-EP"
-			(at 138.43 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSC0702LS_C501503.html"
-			(at 135.89 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSC0702LS"
-			(at 130.81 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C501503"
-			(at 128.27 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf1ad2d4-d153-4a81-9f9b-875cdb937059")
-		)
-		(pin "2"
-			(uuid "cab79933-0a82-49b0-ae2b-65328680ea82")
-		)
-		(pin "3"
-			(uuid "5c891a62-4dc6-4b9e-a1a3-86c56c58c2d9")
-		)
-		(pin "4"
-			(uuid "9f0c80fb-a478-49d5-af3c-6efc6be4a78e")
-		)
-		(pin "5"
-			(uuid "9acb008b-cd6b-46e9-a1df-7dc84d6cf5cf")
-		)
-		(pin "6"
-			(uuid "b8cb22fc-5696-466a-beb6-c45e6d475361")
-		)
-		(pin "7"
-			(uuid "58bb2dde-f0ab-47c3-aa18-65e7c5e81ced")
-		)
-		(pin "8"
-			(uuid "1a202f55-ff60-4f99-8661-f9ed8d61b0ab")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 107.95 175.26 0)
 		(unit 1)
@@ -15997,215 +15935,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:BSC0702LS")
-		(at 149.86 83.82 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "874030aa-89c3-477b-89c9-bff6b95202a5")
-		(property "Reference" "Q1"
-			(at 162.56 83.058 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC0702LS"
-			(at 159.512 85.598 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:PG-TDSON-8_L5.0-W6.0-P1.27-BL-EP"
-			(at 138.43 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSC0702LS_C501503.html"
-			(at 135.89 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 133.35 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSC0702LS"
-			(at 130.81 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C501503"
-			(at 128.27 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 149.86 83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4e31ced-1436-40ed-a9ef-843cff9413eb")
-		)
-		(pin "2"
-			(uuid "490e1f95-d019-4eb3-bec7-02c38604328b")
-		)
-		(pin "3"
-			(uuid "d7b7d104-55d5-4af9-9285-f9e729ac8453")
-		)
-		(pin "4"
-			(uuid "f1295c6a-c3c7-4d49-9e85-18f091e96595")
-		)
-		(pin "5"
-			(uuid "186b8d4b-73d7-436d-849c-c30f4935eff6")
-		)
-		(pin "6"
-			(uuid "066d9918-d0f3-42e3-849a-c7d363c60e83")
-		)
-		(pin "7"
-			(uuid "f9a60989-3e31-4e54-a21f-a90c5b0de3fa")
-		)
-		(pin "8"
-			(uuid "ff726dee-7fb4-45d6-b2f8-f9215bcb230c")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 181.61 100.33 90)
 		(unit 1)
@@ -16357,215 +16086,6 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:BSC0702LS")
-		(at 149.86 104.14 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8eb769e1-e03c-422f-9c86-be0a58ee070f")
-		(property "Reference" "Q5"
-			(at 162.814 103.378 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSC0702LS"
-			(at 159.512 105.918 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:PG-TDSON-8_L5.0-W6.0-P1.27-BL-EP"
-			(at 138.43 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSC0702LS_C501503.html"
-			(at 135.89 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 133.35 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BSC0702LS"
-			(at 130.81 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C501503"
-			(at 128.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 149.86 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 149.86 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 149.86 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 149.86 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 149.86 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 149.86 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 149.86 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f99ba434-499a-430e-b805-779c4d533275")
-		)
-		(pin "2"
-			(uuid "4ecec6e0-d293-4e57-a737-8411e986aefd")
-		)
-		(pin "3"
-			(uuid "abaf396c-c841-4c79-8eb8-3708ab3c76d9")
-		)
-		(pin "4"
-			(uuid "25fb07a4-082a-40a6-8883-ac11ee477698")
-		)
-		(pin "5"
-			(uuid "213d5138-0494-4a55-a864-c417eaf226ef")
-		)
-		(pin "6"
-			(uuid "97244208-782f-468a-9926-8d91a11eacb4")
-		)
-		(pin "7"
-			(uuid "dc22d70f-8d1b-4d58-a04c-6f7c3b1250bf")
-		)
-		(pin "8"
-			(uuid "fd98e5f6-d0f9-4271-898f-5feab01dbd2d")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -18334,6 +17854,503 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:BSC0702LS")
+		(at 149.86 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c70fa7be-bcf0-4bad-b6c1-cc357259b8b0")
+		(property "Reference" "Q5"
+			(at 136.906 102.362 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC0702LS"
+			(at 140.208 99.822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:PG-TDSON-8_L5.0-W6.0-P1.27-BL-EP"
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSC0702LS_C501503.html"
+			(at 163.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon(英飞凌)"
+			(at 166.37 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BSC0702LS"
+			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C501503"
+			(at 171.45 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9c03a42-d4f2-4532-b91b-c206744129dc")
+		)
+		(pin "2"
+			(uuid "b54becea-b64f-4223-bf0a-59014ee7ee7b")
+		)
+		(pin "3"
+			(uuid "679cc8c2-7e0e-4c29-badd-1e0ec7463678")
+		)
+		(pin "4"
+			(uuid "9bcb938f-5b1c-47fe-9c3a-386954144fa1")
+		)
+		(pin "5"
+			(uuid "6469df20-c412-43b4-b883-c161ccbac8c1")
+		)
+		(pin "6"
+			(uuid "cd4f1e7f-b5f6-4c20-ad51-83c80750849f")
+		)
+		(pin "7"
+			(uuid "128cd687-f5d8-4f71-a7c3-aea1fb4649e2")
+		)
+		(pin "8"
+			(uuid "4c5d1111-3e5f-48ef-af1b-d5de8be3a233")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 120.65 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca83f3e3-a685-4e07-a643-3a6f2e4c71ae")
+		(property "Reference" "#PWR0134"
+			(at 125.73 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 124.46 96.6469 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 120.65 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99c54cf4-df05-442d-8aaa-2b3043d22225")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:BSC0702LS")
+		(at 149.86 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc7babb5-58f0-4ea1-92d4-74a52aa1f50c")
+		(property "Reference" "Q2"
+			(at 140.208 102.362 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC0702LS"
+			(at 140.208 99.822 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:PG-TDSON-8_L5.0-W6.0-P1.27-BL-EP"
+			(at 161.29 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_Infineon-Technologies-BSC0702LS_C501503.html"
+			(at 163.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon(英飞凌)"
+			(at 166.37 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BSC0702LS"
+			(at 168.91 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C501503"
+			(at 171.45 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 149.86 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1da9cc60-45f5-4d32-bb3d-3c031c4fbb43")
+		)
+		(pin "2"
+			(uuid "b71ac02f-d67f-4b5e-ad9c-1528ae5b4175")
+		)
+		(pin "3"
+			(uuid "252af1db-963a-4ca0-ba03-598634602b10")
+		)
+		(pin "4"
+			(uuid "7609e510-14c2-4c50-b1d4-e9f35b7d2978")
+		)
+		(pin "5"
+			(uuid "31c4367d-06df-4d5d-a2f8-e352fdb1b869")
+		)
+		(pin "6"
+			(uuid "e6e6ad1e-1c43-41ad-a48a-5bb14fca1394")
+		)
+		(pin "7"
+			(uuid "b7e58219-5559-478c-bc17-19ece7209096")
+		)
+		(pin "8"
+			(uuid "45250e09-d563-4dc0-97c3-bb0b986c3c42")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "Q2")
 					(unit 1)
 				)
 			)

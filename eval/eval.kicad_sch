@@ -2542,6 +2542,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 78.74) (xy 208.28 78.74)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "4d45e5a6-6008-49b8-bcff-10b43457cc43")
+	)
+	(wire
+		(pts
 			(xy 82.55 41.91) (xy 82.55 43.18)
 		)
 		(stroke
@@ -2702,6 +2712,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 57.15) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "bff1472e-57ed-46e2-b6a5-90ae45447072")
+	)
+	(wire
+		(pts
 			(xy 68.58 157.48) (xy 68.58 154.94)
 		)
 		(stroke
@@ -2799,6 +2819,16 @@
 			(type default)
 		)
 		(uuid "fa871971-f394-436a-a73d-f3c01d0153c7")
+	)
+	(wire
+		(pts
+			(xy 208.28 78.74) (xy 208.28 57.15)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "fbd2bf67-c8d8-4c47-a27a-6e5de212d70b")
 	)
 	(label "CAN_STB"
 		(at 218.39 144.78 180)
@@ -5041,7 +5071,7 @@
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
-					(page "2")
+					(page "10")
 				)
 			)
 		)
@@ -5223,7 +5253,7 @@
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
-					(page "8")
+					(page "14")
 				)
 			)
 		)
@@ -5320,7 +5350,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "956e382c-4efc-492f-b828-7c0ac2cccd62")
-		(property "Sheetname" "power_usb_pd (page 9)"
+		(property "Sheetname" "power_usb_pd"
 			(at 175.26 46.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5435,7 +5465,63 @@
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
-					(page "9")
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 73.66)
+		(size 22.86 10.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b24f473c-1a46-460b-8405-ec0cc87f7b76")
+		(property "Sheetname" "power_dc_in"
+			(at 175.26 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_dc_in.kicad_sch"
+			(at 175.26 84.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDC" output
+			(at 198.12 78.74 0)
+			(uuid "f2df638f-4210-492a-9587-3eaf4410d268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(page "13")
 				)
 			)
 		)
@@ -5638,7 +5724,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f4c4eb3a-0e88-4b17-81fd-38f6eae552fe")
-		(property "Sheetname" "power_mux(page 10)"
+		(property "Sheetname" "power_mux"
 			(at 215.9 44.1384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5693,7 +5779,7 @@
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
-					(page "10")
+					(page "11")
 				)
 			)
 		)

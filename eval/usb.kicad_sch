@@ -302,7 +302,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:AP40P04G"
+		(symbol "EasyEDA:AP40P04Q"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -318,7 +318,7 @@
 					)
 				)
 			)
-			(property "Value" "AP40P04G"
+			(property "Value" "AP40P04Q"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -328,7 +328,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:PDFN-8_L5.8-W4.9-P1.27-LS6.1-BL-A"
+			(property "Footprint" "EasyEDA:PDFN-8_L3.1-W3.0-P0.65-LS3.3-BL"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -339,7 +339,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C5443713.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5443650.pdf"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -372,7 +372,7 @@
 					)
 				)
 			)
-			(property "MPN" "AP40P04G"
+			(property "MPN" "AP40P04Q"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -383,7 +383,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C5443713"
+			(property "LCSC Part" "C5443650"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -405,10 +405,10 @@
 					)
 				)
 			)
-			(symbol "AP40P04G_0_1"
+			(symbol "AP40P04Q_0_1"
 				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
+					(start -3.81 7.62)
+					(end 3.81 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -418,7 +418,7 @@
 					)
 				)
 				(circle
-					(center -3.81 6.35)
+					(center -2.54 6.35)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -429,7 +429,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 2.54 0)
+					(at -6.35 2.54 0)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -447,7 +447,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 0 0)
+					(at -6.35 0 0)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -465,7 +465,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 -2.54 0)
+					(at -6.35 -2.54 0)
 					(length 2.54)
 					(name "S"
 						(effects
@@ -483,7 +483,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -7.62 -5.08 0)
+					(at -6.35 -5.08 0)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -501,7 +501,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 -5.08 180)
+					(at 6.35 -5.08 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -519,7 +519,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 -2.54 180)
+					(at 6.35 -2.54 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -537,7 +537,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 0 180)
+					(at 6.35 0 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -555,7 +555,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 2.54 180)
+					(at 6.35 2.54 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -573,7 +573,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 7.62 5.08 180)
+					(at 6.35 5.08 180)
 					(length 2.54)
 					(name "D"
 						(effects
@@ -1364,6 +1364,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EasyEDA:PTVSHC1SF24VBH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVSHC1SF24VBH"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:SOD-123FL_L2.8-W1.8-LS3.7-BI"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSHC1SF24VBH_C918841.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Prisemi(芯导)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PTVSHC1SF24VBH"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C918841"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TVS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTVSHC1SF24VBH_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.78) (xy 0 0) (xy -2.54 1.78) (xy -2.54 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.78) (xy 0 1.27) (xy 0 -1.27) (xy 0.51 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.78) (xy 0 0) (xy 2.54 -1.78) (xy 2.54 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:RCLAMP0521T-ES"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1525,162 +1704,6 @@
 				(pin unspecified line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA:SMAJ20A_C41376408"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SMAJ20A_C41376408"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:SMA_L4.3-W2.6-LS5.2-RD"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C41376408.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "R+O(宏嘉诚)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SMAJ20A"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C41376408"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SMAJ20A_C41376408_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.52) (xy -1.27 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.52) (xy 1.27 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 3.81)
 					(name "2"
 						(effects
 							(font
@@ -3103,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 49.53) (xy 166.37 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37015f54-38cd-4ee3-b835-b50821d01736")
+	)
+	(wire
+		(pts
 			(xy 153.67 52.07) (xy 163.83 52.07)
 		)
 		(stroke
@@ -3193,6 +3226,26 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b520a81-e360-497b-a780-56ef17735b08")
+	)
+	(wire
+		(pts
+			(xy 163.83 52.07) (xy 166.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c52c3bd-0b15-487c-9baa-a98972afe966")
+	)
+	(wire
+		(pts
 			(xy 81.28 72.39) (xy 83.82 72.39)
 		)
 		(stroke
@@ -3210,6 +3263,16 @@
 			(type default)
 		)
 		(uuid "4fad9ee7-c135-404c-b7ce-64666e9f0136")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 166.37 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5162590d-6186-415a-a29b-420e3bb45243")
 	)
 	(wire
 		(pts
@@ -5239,198 +5302,6 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/956e382c-4efc-492f-b828-7c0ac2cccd62"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:SMAJ20A_C41376408")
-		(at 110.49 100.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a7abbbc-471a-4110-8972-8f9fbd4bdd26")
-		(property "Reference" "D6"
-			(at 113.03 99.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ20A_C41376408"
-			(at 113.03 101.5999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:SMA_L4.3-W2.6-LS5.2-RD"
-			(at 102.87 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C41376408.pdf"
-			(at 100.33 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 110.49 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "R+O(宏嘉诚)"
-			(at 97.79 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SMAJ20A"
-			(at 95.25 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C41376408"
-			(at 92.71 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 110.49 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 110.49 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 110.49 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 110.49 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 110.49 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 110.49 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 110.49 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f21343d-abe4-408f-ae19-a11a388fa573")
-		)
-		(pin "2"
-			(uuid "e0833dcd-8e0e-440b-92cb-cfcc723cc692")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/956e382c-4efc-492f-b828-7c0ac2cccd62"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7991,6 +7862,121 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:PTVSHC1SF24VBH")
+		(at 110.49 100.33 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca4e3db9-b5d6-4fab-9946-b0df402d4fea")
+		(property "Reference" "D7"
+			(at 113.03 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTVSHC1SF24VBH"
+			(at 113.03 101.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EasyEDA:SOD-123FL_L2.8-W1.8-LS3.7-BI"
+			(at 118.11 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/TVS_Shanghai-Prisemi-Elec-PTVSHC1SF24VBH_C918841.html"
+			(at 120.65 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Prisemi(芯导)"
+			(at 123.19 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTVSHC1SF24VBH"
+			(at 125.73 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C918841"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd3a95fe-eeb1-4b05-8979-946d70d6fc9b")
+		)
+		(pin "2"
+			(uuid "4c0fdbd1-3d85-4acf-a5b1-ddfcbfd15572")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/956e382c-4efc-492f-b828-7c0ac2cccd62"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:RCLAMP0521T-ES")
 		(at 81.28 99.06 270)
 		(unit 1)
@@ -8570,217 +8556,6 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/956e382c-4efc-492f-b828-7c0ac2cccd62"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:AP40P04G")
-		(at 171.45 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e63e1a8a-cf6a-4d83-9a1e-1bfdd2541a99")
-		(property "Reference" "Q3"
-			(at 171.45 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP40P04G"
-			(at 171.45 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:PDFN-8_L5.8-W4.9-P1.27-LS6.1-BL-A"
-			(at 171.45 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5443713.pdf"
-			(at 171.45 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "ALLPOWER(铨力)"
-			(at 171.45 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AP40P04G"
-			(at 171.45 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5443713"
-			(at 171.45 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 171.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 171.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 171.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 171.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 171.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 171.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 171.45 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5abcbc26-9c87-4929-b2f3-00bbe668f8b5")
-		)
-		(pin "3"
-			(uuid "d7cbd91e-07e0-4419-b127-ceaf57eaf34f")
-		)
-		(pin "4"
-			(uuid "49ace47b-30c6-45c0-b431-074303799164")
-		)
-		(pin "5"
-			(uuid "05c25193-be14-49ca-a421-c6cbab7a9255")
-		)
-		(pin "6"
-			(uuid "4e83868e-b2fc-4d77-ace7-43ee75f67b8d")
-		)
-		(pin "7"
-			(uuid "af710b21-45ce-48c2-946f-be861cae26ea")
-		)
-		(pin "8"
-			(uuid "86d86409-f4de-40e3-8cb4-615cfad4aac6")
-		)
-		(pin "1"
-			(uuid "e8c37141-1c17-41f5-a6fe-22e8695aa3d5")
-		)
-		(pin "9"
-			(uuid "8c48bdd5-241a-4c22-8e90-f4075fe8ad3e")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/956e382c-4efc-492f-b828-7c0ac2cccd62"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9487,6 +9262,140 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/956e382c-4efc-492f-b828-7c0ac2cccd62"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:AP40P04Q")
+		(at 172.72 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f453fd77-5984-49f6-8618-cfc860adb8c7")
+		(property "Reference" "Q3"
+			(at 172.72 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP40P04Q"
+			(at 172.72 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:PDFN-8_L3.1-W3.0-P0.65-LS3.3-BL"
+			(at 172.72 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5443650.pdf"
+			(at 172.72 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALLPOWER(铨力)"
+			(at 172.72 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AP40P04Q"
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5443650"
+			(at 172.72 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "634374ed-9c33-4f2d-b8e6-27aca46c4d77")
+		)
+		(pin "3"
+			(uuid "cdd9cde2-beb1-4f5c-99a4-d7811787dd03")
+		)
+		(pin "6"
+			(uuid "d6c32238-f8c2-41bb-bb0e-42241308f45c")
+		)
+		(pin "1"
+			(uuid "6cfa514c-39aa-421a-bfcd-1567b8a8a790")
+		)
+		(pin "8"
+			(uuid "9b4f1ea0-4b15-46eb-b587-fffdff4f24cf")
+		)
+		(pin "4"
+			(uuid "1e07fe90-efd2-40f7-bb12-b8ac7965a13e")
+		)
+		(pin "2"
+			(uuid "386eea79-8acb-4d3b-8270-cc0c854a51c3")
+		)
+		(pin "5"
+			(uuid "f4bbaa9f-107b-46ec-99b3-1b083b59abe9")
+		)
+		(pin "9"
+			(uuid "49078290-cb2e-4735-9add-245ffb6fb834")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/956e382c-4efc-492f-b828-7c0ac2cccd62"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
