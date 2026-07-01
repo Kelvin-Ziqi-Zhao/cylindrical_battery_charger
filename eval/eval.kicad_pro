@@ -742,7 +742,7 @@
         "uuid": "8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
       }
     ],
-    "used_designators": "#PWR135,R17,D7",
+    "used_designators": "U5,U21,#PWR136-139,CN2-3",
     "variants": []
   },
   "sheets": [
@@ -785,6 +785,10 @@
     [
       "4380f3ef-c4d9-44b0-bf49-4e0cf7323e12",
       "power_battery"
+    ],
+    [
+      "279a7c3f-9195-4c11-b005-1c97c8cf037e",
+      "power_bat_connector"
     ]
   ],
   "text_variables": {},
