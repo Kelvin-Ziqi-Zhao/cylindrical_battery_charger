@@ -2806,7 +2806,7 @@
 	)
 	(text "inductor selection list\nC18337518\n\nC52989662 \nC52989661（470n)"
 		(exclude_from_sim no)
-		(at 242.57 124.46 0)
+		(at 242.316 159.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3020,6 +3020,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ae3dad7-0de4-4f9f-8c5b-201c598f2e51")
+	)
+	(junction
+		(at 241.3 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bc7a692-d0ea-4c7a-9011-a930ec922679")
 	)
 	(junction
 		(at 111.76 71.12)
@@ -3377,7 +3383,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 93.98) (xy 240.03 93.98)
+			(xy 224.79 93.98) (xy 259.08 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3817,6 +3823,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 125.73) (xy 241.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa008bc-e618-4996-9b6c-9b090e4250c2")
+	)
+	(wire
+		(pts
 			(xy 215.9 93.98) (xy 224.79 93.98)
 		)
 		(stroke
@@ -3924,6 +3940,16 @@
 			(type default)
 		)
 		(uuid "8304f78e-d3b3-4c0a-a5fd-4e238f3c3ab4")
+	)
+	(wire
+		(pts
+			(xy 228.6 127) (xy 228.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832906e6-9dc4-4ff8-b6c3-4ef2ebe74ad6")
 	)
 	(wire
 		(pts
@@ -4094,6 +4120,16 @@
 			(type default)
 		)
 		(uuid "ae0102ff-14ec-430c-9e3c-d81b6c5b3919")
+	)
+	(wire
+		(pts
+			(xy 242.57 125.73) (xy 241.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b39c64f0-207a-4631-8917-d5895e49e89a")
 	)
 	(wire
 		(pts
@@ -4417,16 +4453,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 93.98) (xy 259.08 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53a7c1b-b7a9-4787-ac24-50a215090223")
-	)
-	(wire
-		(pts
 			(xy 128.27 86.36) (xy 128.27 91.44)
 		)
 		(stroke
@@ -4484,6 +4510,16 @@
 			(type default)
 		)
 		(uuid "f980bce4-0226-4f47-a25c-a8eea398f36f")
+	)
+	(wire
+		(pts
+			(xy 252.73 125.73) (xy 251.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac5bf20-4c13-4a8f-bc43-2be8d23e7822")
 	)
 	(wire
 		(pts
@@ -9059,6 +9095,16 @@
 		)
 		(uuid "223954f0-1c59-4cd2-af14-67a5f7fcd557")
 	)
+	(label "OUT_ISNS+"
+		(at 252.73 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25d8e0e1-717c-4a22-8284-c919e5b67c17")
+	)
 	(label "SW"
 		(at 168.91 100.33 270)
 		(effects
@@ -9109,6 +9155,16 @@
 		)
 		(uuid "58350946-3ab7-40f6-a011-ad744ef83401")
 	)
+	(label "OUT_ISNS-"
+		(at 242.57 125.73 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "627a62fe-9c6a-49f9-b193-32ad1e0e6845")
+	)
 	(label "IN_ISNS+"
 		(at 43.18 57.15 270)
 		(effects
@@ -9128,26 +9184,6 @@
 			(justify right bottom)
 		)
 		(uuid "af78345f-732e-410f-9223-202fb084d624")
-	)
-	(label "OUT_ISNS-"
-		(at 251.46 93.98 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b76e3898-277e-4c26-a722-6b0f06191510")
-	)
-	(label "OUT_ISNS+"
-		(at 240.03 93.98 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7cf9f20-295b-4fec-a4f0-99d7676991e9")
 	)
 	(label "OUT_ISNS-"
 		(at 92.71 217.17 180)
@@ -9179,6 +9215,17 @@
 			(justify left)
 		)
 		(uuid "06d66dab-a1ac-495f-9b6d-9153ca7699ca")
+	)
+	(hierarchical_label "GNDPWR_BAT"
+		(shape input)
+		(at 252.73 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07508b0d-3c35-4b11-9f3d-2a7f1c69b2af")
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
@@ -12442,6 +12489,196 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:ASR-M-5-0.5F")
+		(at 246.38 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44b4c4aa-25fe-42c2-a573-3198d76c2447")
+		(property "Reference" "R46"
+			(at 246.38 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASR-M-5-0.5F"
+			(at 246.38 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:R3920"
+			(at 246.38 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Low-Resistors-Current-Sense-Resistors-Surface-Mount_Shenzhen-Yezhan-Elec-ASR-M-5-0-5F_C469433.html"
+			(at 246.38 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "yezhan(业展)"
+			(at 246.38 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ASR-M-5-0.5F"
+			(at 246.38 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C469433"
+			(at 246.38 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 246.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 246.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 246.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 246.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 246.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 246.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 246.38 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "caf5ee8c-a500-4b0b-9c96-0c27bb97e978")
+		)
+		(pin "1"
+			(uuid "45017491-f121-438f-ae47-77c71b9e2da7")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:HGC1206R5106K500NSPJ")
 		(at 76.2 63.5 90)
 		(unit 1)
@@ -14256,6 +14493,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 228.6 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dacd64c-4661-4387-9be8-b34bf30edeac")
+		(property "Reference" "#PWR0140"
+			(at 228.6 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 228.473 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 228.6 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba4578c1-e333-47e2-9ebc-49f20b7429ee")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 137.16 59.69 0)
 		(unit 1)
@@ -15199,196 +15514,6 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:ASR-M-5-0.5F")
-		(at 245.11 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c414640-0ba4-477e-b22d-b4696edbcf48")
-		(property "Reference" "R46"
-			(at 245.11 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ASR-M-5-0.5F"
-			(at 245.11 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:R3920"
-			(at 245.11 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Low-Resistors-Current-Sense-Resistors-Surface-Mount_Shenzhen-Yezhan-Elec-ASR-M-5-0-5F_C469433.html"
-			(at 245.11 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "yezhan(业展)"
-			(at 245.11 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ASR-M-5-0.5F"
-			(at 245.11 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C469433"
-			(at 245.11 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 245.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8409b892-cd41-4930-bc38-44ec97abb607")
-		)
-		(pin "1"
-			(uuid "7db9a8b4-e713-444d-a5e6-11e294bb4bc6")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
-					(reference "R46")
 					(unit 1)
 				)
 			)

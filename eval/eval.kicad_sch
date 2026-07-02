@@ -1870,6 +1870,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2389,6 +2512,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 151.46 38.3)
@@ -2457,6 +2719,12 @@
 		(uuid "d56bc724-99f9-4ff0-b86d-998f0e5871bf")
 	)
 	(junction
+		(at 353.06 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0965000b-35d8-41b0-8fb4-2b28005e5b18")
+	)
+	(junction
 		(at 88.9 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2495,6 +2763,16 @@
 	(no_connect
 		(at 63.5 198.12)
 		(uuid "8408caf5-c99a-435f-aff4-76c9627aacdc")
+	)
+	(wire
+		(pts
+			(xy 353.06 50.8) (xy 361.95 50.8)
+		)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(uuid "000fd869-b87e-4be9-a286-dc4fc0beeeb0")
 	)
 	(wire
 		(pts
@@ -2598,6 +2876,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 93.98) (xy 361.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e655002-b30e-484f-958a-5f348f2168c2")
+	)
+	(wire
+		(pts
 			(xy 198.12 50.8) (xy 215.9 50.8)
 		)
 		(stroke
@@ -2688,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 48.26) (xy 353.06 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad10a1a3-8f7a-4f28-808f-a5f9e71d4210")
+	)
+	(wire
+		(pts
 			(xy 48.26 187.96) (xy 48.26 193.04)
 		)
 		(stroke
@@ -2698,10 +2996,10 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 50.8) (xy 361.95 50.8)
+			(xy 345.44 50.8) (xy 353.06 50.8)
 		)
 		(stroke
-			(width 0)
+			(width 0.5)
 			(type default)
 		)
 		(uuid "b1d61380-2b41-48fd-913f-b25fea64c42f")
@@ -2768,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 72.39) (xy 326.39 72.39)
+			(xy 298.45 72.39) (xy 317.5 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 50.8) (xy 326.39 50.8)
+			(xy 298.45 50.8) (xy 317.5 50.8)
 		)
 		(stroke
 			(width 0.5)
@@ -3439,6 +3737,243 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0391e8e2-d8c9-4699-b495-2ac2105317bb")
+		(property "Reference" "H3"
+			(at 266.7 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 266.7 203.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 264.16 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 264.16 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47fc2217-b1b5-4c34-bb1e-674817470ef7")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 264.16 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07525642-1792-4164-9756-92268a19a9af")
+		(property "Reference" "H4"
+			(at 266.7 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 266.7 215.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 264.16 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 264.16 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0df19672-9314-4a78-9d49-c4d9d0443eef")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 275.59 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28e88c4d-1d18-490c-8ae8-42ca8c601c17")
+		(property "Reference" "H2"
+			(at 278.13 200.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 278.13 203.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 275.59 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 275.59 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "393f50f8-38b1-40d2-bd01-ba0851c63db8")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4462,6 +4997,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 275.59 215.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8f1e3f2-df44-4f66-aa73-9032ad05ae26")
+		(property "Reference" "H5"
+			(at 278.13 213.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 278.13 215.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+			(at 275.59 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 275.59 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b90dbec7-8beb-4480-982e-960c0b599125")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 34.29 62.23 180)
 		(unit 1)
@@ -4615,6 +5229,84 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 353.06 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d198211e-080c-4ab9-8911-6a52bd082bc7")
+		(property "Reference" "#PWR0136"
+			(at 353.06 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 353.06 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 353.06 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a102560-77a3-4642-a00a-817c4934a1f2")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -5094,6 +5786,16 @@
 				(justify left)
 			)
 		)
+		(pin "GNDPWR_BAT" input
+			(at 298.45 93.98 0)
+			(uuid "900fddc6-d8a3-4692-9d4c-a16879b3e890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
@@ -5104,7 +5806,7 @@
 	)
 	(sheet
 		(at 361.95 44)
-		(size 14.05 15.69)
+		(size 14.05 54)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5142,6 +5844,16 @@
 		(pin "BAT+" input
 			(at 361.95 50.8 180)
 			(uuid "cf9f05ed-581a-4ec1-b01e-6981afb95181")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GNDPWR_BAT" input
+			(at 361.95 93.98 180)
+			(uuid "47f0d636-806a-46ff-be5f-04d3ecc86921")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,8 +5966,8 @@
 		)
 	)
 	(sheet
-		(at 326.39 44.45)
-		(size 27.94 53.34)
+		(at 317.5 44.45)
+		(size 27.94 38.55)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5270,7 +5982,7 @@
 		)
 		(uuid "4380f3ef-c4d9-44b0-bf49-4e0cf7323e12")
 		(property "Sheetname" "power_battery"
-			(at 326.39 43.7384 0)
+			(at 317.5 43.7384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5281,7 +5993,7 @@
 			)
 		)
 		(property "Sheetfile" "power_battery.kicad_sch"
-			(at 326.39 98.5446 0)
+			(at 317.5 83.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5292,7 +6004,7 @@
 			)
 		)
 		(pin "I_OUT_MON" input
-			(at 326.39 72.39 180)
+			(at 317.5 72.39 180)
 			(uuid "21aa92b8-0ecc-457c-8cff-666689bd016d")
 			(effects
 				(font
@@ -5302,7 +6014,7 @@
 			)
 		)
 		(pin "~{fault_reset_mcu}" input
-			(at 326.39 88.9 180)
+			(at 317.5 78.74 180)
 			(uuid "01485b1b-a7b4-4539-8b29-58a1c84cf8a0")
 			(effects
 				(font
@@ -5312,7 +6024,7 @@
 			)
 		)
 		(pin "FROM_BUCK" input
-			(at 326.39 50.8 180)
+			(at 317.5 50.8 180)
 			(uuid "1def0c94-0641-422e-bd1f-d13c8a82ee90")
 			(effects
 				(font
@@ -5322,7 +6034,7 @@
 			)
 		)
 		(pin "TO_BATT" input
-			(at 354.33 50.8 0)
+			(at 345.44 50.8 0)
 			(uuid "4a4487ca-072c-427b-9d04-b320c705dabe")
 			(effects
 				(font
