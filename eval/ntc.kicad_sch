@@ -716,7 +716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759cb43e-44d3-44de-8775-eca36dda430a")
-		(property "Reference" "TH3"
+		(property "Reference" "TH1"
 			(at 68.58 101.9174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -788,7 +788,7 @@
 					(unit 1)
 				)
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/d3253a8d-0eec-44ee-bd6d-2b47f044d90a"
-					(reference "TH3")
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -806,7 +806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a36d22da-b2d5-4c5e-883a-819fbafede5e")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0139"
 			(at 66.04 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -874,7 +874,7 @@
 					(unit 1)
 				)
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/d3253a8d-0eec-44ee-bd6d-2b47f044d90a"
-					(reference "#PWR0143")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -892,7 +892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2e5f1ff-65e5-41e9-a057-0ae252b96fbd")
-		(property "Reference" "R62"
+		(property "Reference" "R63"
 			(at 68.58 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -956,15 +956,15 @@
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/16c85023-a95f-41ad-8d7f-a61a39d2b5de"
-					(reference "R62")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/9739d650-82ca-4f3e-9870-5114b6878bac"
-					(reference "R57")
+					(reference "R64")
 					(unit 1)
 				)
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/d3253a8d-0eec-44ee-bd6d-2b47f044d90a"
-					(reference "R62")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -982,7 +982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc68fb93-5913-486c-918a-12abfcb15dc5")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0138"
 			(at 66.04 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1046,11 +1046,11 @@
 					(unit 1)
 				)
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/9739d650-82ca-4f3e-9870-5114b6878bac"
-					(reference "#PWR0139")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/d3253a8d-0eec-44ee-bd6d-2b47f044d90a"
-					(reference "#PWR0142")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
