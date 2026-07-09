@@ -3844,6 +3844,26 @@
 		)
 		(uuid "fe052468-970f-407b-b8d7-9e9a2dba80f1")
 	)
+	(label "USB+"
+		(at 76.2 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bd451c4-8275-4db2-a6a5-92d14b435541")
+	)
+	(label "USB-"
+		(at 77.47 77.47 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b17a9829-670f-43cd-b21c-2ea9e239fdc3")
+	)
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 181.61 44.45 0)

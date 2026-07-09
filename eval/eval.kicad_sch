@@ -3097,16 +3097,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 83.82) (xy 107.95 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a793a5db-ec58-4169-b375-1a8c140f902b")
-	)
-	(wire
-		(pts
 			(xy 107.95 85.09) (xy 116.84 85.09)
 		)
 		(stroke
@@ -3356,6 +3346,26 @@
 		(uuid "174e2c70-62f9-48d0-848e-66b0b8dde019")
 	)
 	(label "ADC_I_IN_MON"
+		(at 107.95 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ab94b9a-104a-42e6-b60e-22c9b8a69a42")
+	)
+	(label "ADC_NTC_2"
+		(at 133.35 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c9e1387-7f53-4856-8bde-6ba0f82f4e36")
+	)
+	(label "ADC_I_IN_MON"
 		(at 298.45 63.5 0)
 		(effects
 			(font
@@ -3385,7 +3395,7 @@
 		)
 		(uuid "28f3bbd2-a6e3-4445-bd65-775c17098741")
 	)
-	(label "ADC_I_OUT_MON"
+	(label "ADC_V_IN_MON"
 		(at 107.95 59.69 0)
 		(effects
 			(font
@@ -3393,7 +3403,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "37563527-f2df-4ffc-897a-2eb6dee2b1f6")
+		(uuid "35c08613-6b5b-411a-9a57-fb9e35ce1115")
 	)
 	(label "FDCAN1_RX"
 		(at 218.44 135.89 180)
@@ -3485,16 +3495,6 @@
 		)
 		(uuid "6bc8258f-0d96-4346-88f6-2132361bccc0")
 	)
-	(label "ADC_I_IN_MON"
-		(at 107.95 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ee62d03-e14d-4ab5-89c7-ce1b5aabfe90")
-	)
 	(label "ADC_V_OUT_MON"
 		(at 298.45 68.58 0)
 		(effects
@@ -3575,6 +3575,16 @@
 		)
 		(uuid "84ed85c6-7f89-4f12-912f-fcdb2586f318")
 	)
+	(label "ADC_I_OUT_MON"
+		(at 107.95 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d700d50-1452-4e5b-bb56-a00aa27bd368")
+	)
 	(label "SYS_SWDCLK"
 		(at 63.5 195.58 0)
 		(effects
@@ -3615,15 +3625,25 @@
 		)
 		(uuid "93570ada-cac6-4091-bea8-b3d94386a809")
 	)
-	(label "ADC_V_OUT_MON"
-		(at 107.95 62.23 0)
+	(label "ADC_V_OUT-_MON"
+		(at 107.95 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "98caa761-4550-4f23-998b-96fcab3d6d18")
+		(uuid "98fd644f-2ff1-4860-8ec3-11db719b6743")
+	)
+	(label "ADC_NTC_1"
+		(at 107.95 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d5f1cb1-f0c1-4d2d-bac2-c15f6ac64591")
 	)
 	(label "USB_D+"
 		(at 166.37 50.8 180)
@@ -3716,7 +3736,7 @@
 		(uuid "bd9fc531-0856-438f-ac71-f52ae0dbe89f")
 	)
 	(label "USB_D-"
-		(at 107.95 83.82 0)
+		(at 107.95 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3745,16 +3765,6 @@
 		)
 		(uuid "d40d6431-d6a2-47ce-9770-d5b3ea787ded")
 	)
-	(label "ADC_V_IN_MON"
-		(at 107.95 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d640eb40-ea33-4d71-b357-86271bc657a3")
-	)
 	(label "FDCAN1_RX"
 		(at 107.95 123.19 0)
 		(effects
@@ -3774,6 +3784,16 @@
 			(justify left bottom)
 		)
 		(uuid "d7540aa0-6ae8-4873-b338-d6b413880a22")
+	)
+	(label "ADC_NTC_0"
+		(at 107.95 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcc1f6a9-037a-4a4b-81d8-29b746a0a255")
 	)
 	(label "SPI2_MOSI"
 		(at 168.91 142.24 180)
@@ -3824,6 +3844,16 @@
 			(justify right bottom)
 		)
 		(uuid "f6b25c99-9c9e-4c90-8b79-4eed2339cc2a")
+	)
+	(label "ADC_V_OUT+_MON"
+		(at 107.95 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f80ebd8d-47c9-40cb-8dad-79ff3b95978c")
 	)
 	(symbol
 		(lib_id "power:GNDA")
