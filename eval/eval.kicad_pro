@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -58,6 +58,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.8,
+          "width": 0.13208
         }
       ],
       "drc_exclusions": [],
@@ -198,7 +203,8 @@
         0.0635,
         0.127,
         0.254,
-        0.508
+        0.508,
+        1.016
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -746,7 +752,7 @@
         "uuid": "8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
       }
     ],
-    "used_designators": "R66-67,#PWR146",
+    "used_designators": "U5,U19,TP7-9,Q10-11,#PWR30-31,#PWR115-116,#PWR120,#PWR123,#PWR126,#PWR131,#PWR133-134,C54,C57,C59,R55-56,R61,R68",
     "variants": []
   },
   "sheets": [
@@ -788,7 +794,7 @@
     ],
     [
       "4380f3ef-c4d9-44b0-bf49-4e0cf7323e12",
-      "power_battery"
+      "power_battery_protection"
     ],
     [
       "279a7c3f-9195-4c11-b005-1c97c8cf037e",
