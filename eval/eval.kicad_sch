@@ -6342,16 +6342,6 @@
 				(justify left)
 			)
 		)
-		(pin "~{fault_reset_mcu}" input
-			(at 317.5 78.74 180)
-			(uuid "01485b1b-a7b4-4539-8b29-58a1c84cf8a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "FROM_BUCK" input
 			(at 317.5 50.8 180)
 			(uuid "1def0c94-0641-422e-bd1f-d13c8a82ee90")
@@ -6365,6 +6355,36 @@
 		(pin "TO_BATT" input
 			(at 345.44 50.8 0)
 			(uuid "4a4487ca-072c-427b-9d04-b320c705dabe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_EN" input
+			(at 345.44 59.69 0)
+			(uuid "13e3c47f-39f9-47b3-b25f-020420789dfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NEG_V_ALARM" input
+			(at 345.44 63.5 0)
+			(uuid "f1b1c5c0-d2b5-471e-96b5-069a55bef11b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OVER_I_ALARM" input
+			(at 345.44 67.31 0)
+			(uuid "04aa8bde-5799-4037-b6cb-bbd64ab634d4")
 			(effects
 				(font
 					(size 1.27 1.27)
