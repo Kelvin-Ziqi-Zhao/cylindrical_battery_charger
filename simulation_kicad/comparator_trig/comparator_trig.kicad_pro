@@ -50,21 +50,10 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        },
-        {
-          "gap": 0.2032,
-          "via_gap": 0.8,
-          "width": 0.13208
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -198,14 +187,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.0635,
-        0.127,
-        0.254,
-        0.508,
-        1.016
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -232,16 +214,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.25
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -495,23 +468,18 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "EasyEDA"
-    ],
-    "pinned_symbol_libs": [
-      "charger",
-      "EasyEDA"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "eval.kicad_pro",
+    "filename": "comparator_trig.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -527,13 +495,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "name": "Analog",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 132, 132)",
-        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -541,16 +502,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Analog",
-        "pattern": "*/ADC_*"
-      },
-      {
-        "netclass": "Analog",
-        "pattern": "*/DAC_*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -630,84 +582,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MPN",
-          "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -740,6 +620,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": "comparator_trig.wbk"
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -747,70 +635,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "eval.kicad_sch",
+        "filename": "comparator_trig.kicad_sch",
         "name": "Root",
-        "uuid": "8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
+        "uuid": "c6afa8b3-2ff2-4281-bf9d-d523a41341e0"
       }
     ],
-    "used_designators": "C13,C17,C60,R25,R44-45,#PWR108-110,#PWR115-118,#PWR137,D6-7,U20",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
-      "8b023652-20db-48ce-ad53-bc2d9a4e5dd4",
+      "c6afa8b3-2ff2-4281-bf9d-d523a41341e0",
       "Root"
     ],
     [
-      "2f398d92-68d1-416e-a954-bbf2a8f3282d",
-      "loop"
-    ],
-    [
-      "e5450d34-e34e-454c-8387-40410830d96b",
-      "aux_power_rail"
-    ],
-    [
-      "cc11e5a9-bb51-4ba8-a74b-0d2f2f060f5d",
-      "screen"
-    ],
-    [
-      "6dc5225f-c89b-40d1-9470-7379c2fb3f04",
-      "can"
-    ],
-    [
-      "098c0cf2-1158-4d75-9e4c-d56dfe6be0a0",
-      "power_buck"
-    ],
-    [
-      "f4c4eb3a-0e88-4b17-81fd-38f6eae552fe",
-      "power_mux"
-    ],
-    [
-      "956e382c-4efc-492f-b828-7c0ac2cccd62",
-      "power_usb_pd"
-    ],
-    [
-      "b24f473c-1a46-460b-8405-ec0cc87f7b76",
-      "power_dc_in"
-    ],
-    [
-      "4380f3ef-c4d9-44b0-bf49-4e0cf7323e12",
-      "power_battery_protection"
-    ],
-    [
-      "279a7c3f-9195-4c11-b005-1c97c8cf037e",
-      "power_bat_connector"
-    ],
-    [
-      "d3253a8d-0eec-44ee-bd6d-2b47f044d90a",
-      "ntc"
-    ],
-    [
-      "9739d650-82ca-4f3e-9870-5114b6878bac",
-      "ntc1"
-    ],
-    [
-      "16c85023-a95f-41ad-8d7f-a61a39d2b5de",
-      "ntc2"
+      "2eccbe4d-c59c-44dd-aaee-91879277c73b",
+      "temp"
     ]
   ],
   "text_variables": {},
