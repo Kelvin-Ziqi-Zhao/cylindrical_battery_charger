@@ -5,197 +5,6 @@
 	(uuid "8c376f5f-c15e-4ee9-9211-a4f899664431")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EasyEDA:JFC1206-2300FS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JFC1206-2300FS"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:F1206"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Surface-Mount-Fuses_23A-24V_C136359.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JDTfuse(集电通)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "JFC1206-2300FS"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C136359"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Fuses"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JFC1206-2300FS_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.27)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 1.27 -1.27)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:TS34031"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -408,13 +217,7 @@
 		(at 59.69 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "58c43495-434a-4c6f-a4aa-0926b0bb2a5f")
-	)
-	(junction
-		(at 54.61 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91a6c6a2-53f9-40e2-9cb0-d6645e80837f")
+		(uuid "4772f13d-c5b6-465b-a17b-b2d4e021b5fc")
 	)
 	(junction
 		(at 54.61 88.9)
@@ -422,15 +225,9 @@
 		(color 0 0 0 0)
 		(uuid "9d4c2918-5fc7-4294-af7e-d34ef6f50ee5")
 	)
-	(junction
-		(at 54.61 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f618e4a3-3ab0-4fc0-9376-593f062b64fd")
-	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 54.61 111.76)
+			(xy 50.8 111.76) (xy 59.69 111.76)
 		)
 		(stroke
 			(width 0)
@@ -450,6 +247,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 96.52) (xy 59.69 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e5bda2-eb60-4b99-b3cd-8b6e9355674a")
+	)
+	(wire
+		(pts
 			(xy 64.77 86.36) (xy 64.77 88.9)
 		)
 		(stroke
@@ -460,17 +267,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 111.76) (xy 59.69 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82ea8979-3075-4e41-97b7-2cfd0c51dcea")
-	)
-	(wire
-		(pts
-			(xy 59.69 96.52) (xy 54.61 96.52)
+			(xy 54.61 96.52) (xy 59.69 96.52)
 		)
 		(stroke
 			(width 0)
@@ -490,6 +287,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 96.52) (xy 64.77 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0597a32-e293-4f08-9573-90c6855727ab")
+	)
+	(wire
+		(pts
 			(xy 54.61 86.36) (xy 54.61 88.9)
 		)
 		(stroke
@@ -497,16 +304,6 @@
 			(type default)
 		)
 		(uuid "e833c586-213e-4c16-8146-d8a4b669fed7")
-	)
-	(wire
-		(pts
-			(xy 64.77 96.52) (xy 59.69 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7338521-5321-4581-9381-6220b91c0b38")
 	)
 	(hierarchical_label "BAT+"
 		(shape input)
@@ -683,121 +480,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:JFC1206-2300FS")
-		(at 54.61 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20cb25ca-f46a-4c06-b11c-8137b4fbbe50")
-		(property "Reference" "F2"
-			(at 57.15 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JFC1206-2300FS"
-			(at 57.15 105.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:F1206"
-			(at 62.23 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Surface-Mount-Fuses_23A-24V_C136359.html"
-			(at 64.77 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JDTfuse(集电通)"
-			(at 67.31 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "JFC1206-2300FS"
-			(at 69.85 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C136359"
-			(at 72.39 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afd85886-3729-46ea-9db3-286d2a288c5a")
-		)
-		(pin "2"
-			(uuid "ffe0dee6-319c-413e-9352-66b31a6b0311")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/279a7c3f-9195-4c11-b005-1c97c8cf037e"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:TS34031")
 		(at 59.69 87.63 0)
 		(unit 1)
@@ -911,121 +593,6 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/279a7c3f-9195-4c11-b005-1c97c8cf037e"
 					(reference "U25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:JFC1206-2300FS")
-		(at 59.69 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce15b6bc-272d-4408-a21e-23c01de36e4c")
-		(property "Reference" "F3"
-			(at 62.23 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JFC1206-2300FS"
-			(at 62.23 105.4099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "EasyEDA:F1206"
-			(at 67.31 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Surface-Mount-Fuses_23A-24V_C136359.html"
-			(at 69.85 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JDTfuse(集电通)"
-			(at 72.39 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "JFC1206-2300FS"
-			(at 74.93 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C136359"
-			(at 77.47 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04a01dec-9809-4a54-abdc-e2f5e214f03d")
-		)
-		(pin "2"
-			(uuid "08dea828-c794-4390-8f1e-918d9448a8b1")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/279a7c3f-9195-4c11-b005-1c97c8cf037e"
-					(reference "F3")
 					(unit 1)
 				)
 			)

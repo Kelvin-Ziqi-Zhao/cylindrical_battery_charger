@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -539,7 +539,9 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(0, 0, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -752,13 +754,17 @@
         "uuid": "8b023652-20db-48ce-ad53-bc2d9a4e5dd4"
       }
     ],
-    "used_designators": "C13,C17,C60,R25,R44-45,#PWR108-110,#PWR115-118,#PWR137,D6-7,U20",
+    "used_designators": "TH2,TP5-6,TP9-12,#PWR139,#PWR144-145,#PWR148-149,C53-54,C62,R74-75",
     "variants": []
   },
   "sheets": [
     [
       "8b023652-20db-48ce-ad53-bc2d9a4e5dd4",
       "Root"
+    ],
+    [
+      "f427a94d-bba0-4b6d-a83d-7060f6414582",
+      "remote_sense"
     ],
     [
       "2f398d92-68d1-416e-a954-bbf2a8f3282d",
@@ -799,18 +805,6 @@
     [
       "279a7c3f-9195-4c11-b005-1c97c8cf037e",
       "power_bat_connector"
-    ],
-    [
-      "d3253a8d-0eec-44ee-bd6d-2b47f044d90a",
-      "ntc"
-    ],
-    [
-      "9739d650-82ca-4f3e-9870-5114b6878bac",
-      "ntc1"
-    ],
-    [
-      "16c85023-a95f-41ad-8d7f-a61a39d2b5de",
-      "ntc2"
     ]
   ],
   "text_variables": {},

@@ -981,8 +981,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc68fb93-5913-486c-918a-12abfcb15dc5")
-		(property "Reference" "#PWR0138"
+		(uuid "cfc1733e-259d-4234-a1af-68fdc03fa989")
+		(property "Reference" "#PWR048"
 			(at 66.04 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -993,7 +993,7 @@
 				)
 			)
 		)
-		(property "Value" "+2V5"
+		(property "Value" "VREF"
 			(at 66.04 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1037,20 +1037,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8bf78405-b8c4-43d2-ae01-9dad740d9118")
+			(uuid "ab63c5fc-5fdb-4e42-9435-3f8151b35eea")
 		)
 		(instances
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/16c85023-a95f-41ad-8d7f-a61a39d2b5de"
-					(reference "#PWR0142")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/9739d650-82ca-4f3e-9870-5114b6878bac"
-					(reference "#PWR0140")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/d3253a8d-0eec-44ee-bd6d-2b47f044d90a"
-					(reference "#PWR0138")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)

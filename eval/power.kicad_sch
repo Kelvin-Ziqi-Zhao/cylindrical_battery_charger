@@ -2806,7 +2806,7 @@
 	)
 	(text "inductor selection list\nC18337518\n\nC52989662 \nC52989661（470n)"
 		(exclude_from_sim no)
-		(at 278.384 156.972 0)
+		(at 328.168 156.972 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 	)
 	(text "RT(frequency config):\nR(kohm) = (10e6/500(kHz)- 53)/45\n[Equation 4 snvsc01]"
 		(exclude_from_sim no)
-		(at 194.818 151.638 0)
+		(at 244.602 151.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2858,7 +2858,7 @@
 	)
 	(text "PFM/SYNC:\nWhen LOW, internal clock, 500kHz\nWhen clock, reference external clock"
 		(exclude_from_sim no)
-		(at 194.818 169.926 0)
+		(at 244.602 169.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2866,6 +2866,18 @@
 			(justify left)
 		)
 		(uuid "436e041b-938f-4f6c-a7c1-f5e576b83970")
+	)
+	(text "Add RC for all output"
+		(exclude_from_sim no)
+		(at 154.178 217.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "491628c2-87ea-48da-be0a-3d1bdf3992a6")
 	)
 	(text "Gain: 50V/V"
 		(exclude_from_sim no)
@@ -2945,7 +2957,7 @@
 	)
 	(text "CNFG:\nR = 29.9k, PRIMARY, SPREAD SPECTRUM = OFF\nR = 41.2k, PRIMARY, SPREAD SPECTRUM = ON"
 		(exclude_from_sim no)
-		(at 195.072 160.274 0)
+		(at 244.856 160.274 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3146,6 +3158,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ab0f777-5694-4346-8c73-5932b5f6f344")
+	)
+	(junction
+		(at 199.39 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a250db9-aaca-4ddd-b31b-38fa732978ef")
 	)
 	(junction
 		(at 153.67 71.12)
@@ -3683,6 +3701,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 163.83) (xy 212.09 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4772bfef-3a61-4306-a073-0b15d5cc4ad6")
+	)
+	(wire
+		(pts
 			(xy 205.74 93.98) (xy 210.82 93.98)
 		)
 		(stroke
@@ -3870,6 +3898,16 @@
 			(type default)
 		)
 		(uuid "64178c41-34b5-47e2-b257-e9fc2e436cf1")
+	)
+	(wire
+		(pts
+			(xy 199.39 166.37) (xy 199.39 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670348c0-ff8e-4018-aeb8-8d279c0b142d")
 	)
 	(wire
 		(pts
@@ -4113,6 +4151,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 175.26) (xy 199.39 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8cfe44f-b678-4307-8202-c96c2f987a2c")
+	)
+	(wire
+		(pts
 			(xy 82.55 57.15) (xy 76.2 57.15)
 		)
 		(stroke
@@ -4130,6 +4178,26 @@
 			(type default)
 		)
 		(uuid "abc582c9-3637-4d10-aef2-00cdf7c158ef")
+	)
+	(wire
+		(pts
+			(xy 199.39 152.4) (xy 199.39 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecdd834-f1d4-4a7d-9b5e-04ae5498dce5")
+	)
+	(wire
+		(pts
+			(xy 199.39 163.83) (xy 199.39 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d78c23-9445-4b86-b9cf-b0af4d9a731b")
 	)
 	(wire
 		(pts
@@ -9225,6 +9293,16 @@
 		)
 		(uuid "e1ba9681-35b3-42c4-bd95-53e2e93f388e")
 	)
+	(label "FB"
+		(at 199.39 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e39705c0-a49c-4a77-b83a-d2421a49baee")
+	)
 	(label "SW"
 		(at 118.11 99.06 0)
 		(effects
@@ -9289,17 +9367,6 @@
 			(justify left)
 		)
 		(uuid "33c2dc85-7a78-4a43-9214-f540126d1cb5")
-	)
-	(hierarchical_label "V_IN_MON"
-		(shape input)
-		(at 255.27 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34a42a08-da29-4d3f-ae1a-764ead51881c")
 	)
 	(hierarchical_label "EN"
 		(shape input)
@@ -9367,6 +9434,17 @@
 		)
 		(uuid "7b96e22e-2f0b-4597-bb18-4d2149e29832")
 	)
+	(hierarchical_label "V_OUT"
+		(shape output)
+		(at 199.39 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "901549f2-83d9-49ca-be45-d734e5a0f84d")
+	)
 	(hierarchical_label "V_IN_MON"
 		(shape input)
 		(at 172.72 163.83 0)
@@ -9424,7 +9502,7 @@
 	)
 	(hierarchical_label "V_OUT_MON"
 		(shape output)
-		(at 255.27 74.93 0)
+		(at 212.09 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11828,6 +11906,84 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 199.39 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "411c5a1f-3728-4111-ab92-4bf36f87d49f")
+		(property "Reference" "#PWR0147"
+			(at 199.39 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 199.39 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 199.39 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "030c00d9-ab01-449b-a0ca-2045dfbfb1e0")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -15923,6 +16079,165 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7976afce-3fb4-4958-a9a2-3e9fcfdee069")
+		(property "Reference" "R73"
+			(at 201.93 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 201.93 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 199.39 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4732520-5a80-47e5-bb72-719b98785089")
+		)
+		(pin "2"
+			(uuid "20fce7fd-0c42-4438-9751-712c727b2fd5")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 107.95 175.26 0)
 		(unit 1)
@@ -19156,6 +19471,165 @@
 			(project "eval"
 				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4b917fe-5538-4160-8f9f-a2d0c3e052ea")
+		(property "Reference" "R72"
+			(at 201.93 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small"
+			(at 201.93 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 199.39 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e96ff39b-3ee3-4535-9d96-8923fc25dcc1")
+		)
+		(pin "2"
+			(uuid "33663eb0-8032-4e18-a3d6-1a310f616976")
+		)
+		(instances
+			(project "eval"
+				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/098c0cf2-1158-4d75-9e4c-d56dfe6be0a0"
+					(reference "R72")
 					(unit 1)
 				)
 			)

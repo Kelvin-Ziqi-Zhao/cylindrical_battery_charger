@@ -11881,4 +11881,507 @@
       )
     )
   )
+
+  (symbol "HXPM2.54-2X6PTP"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (at 0 11.43 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "HX PM2.54-2X6P TP"
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:HDR-SMD_12P-P2.54-V-F-R2-C6-LS7.2"
+      (at 0 -13.97 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C41427535.pdf"
+      (at 0 -16.51 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "hanxia(韩下)"
+      (at 0 -19.05 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "HX PM2.54-2x6P TP"
+      (at 0 -21.59 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C41427535"
+      (at 0 -24.13 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "HXPM2.54-2X6PTP_0_1"
+      (rectangle
+        (start -5.08 8.89)
+        (end 5.08 -8.89)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -3.81 7.62)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -7.62 6.35 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -6.35 180)
+        (length 2.54)
+        (name "12" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 3.81 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -3.81 180)
+        (length 2.54)
+        (name "10" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 1.27 0)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -1.27 180)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -1.27 0)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 1.27 180)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -3.81 0)
+        (length 2.54)
+        (name "9" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 3.81 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -6.35 0)
+        (length 2.54)
+        (name "11" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 6.35 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "KH-1.27FH-2X8P-H4.3-SMT"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (at 0 13.97 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "KH-1.27FH-2X8P-H4.3-SMT"
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:CONN-SMD_16P-P1.27_KINGHELM_KH-1.27FH-2X8P-H4.3-SMT"
+      (at 0 -16.51 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C2938398.pdf"
+      (at 0 -19.05 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "kinghelm(金航标)"
+      (at 0 -21.59 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "KH-1.27FH-2X8P-H4.3-SMT"
+      (at 0 -24.13 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C2938398"
+      (at 0 -26.67 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "ki_keywords"
+      "Female Headers"
+      (at 0 -29.21 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "KH-1.27FH-2X8P-H4.3-SMT_0_1"
+      (rectangle
+        (start -5.08 11.43)
+        (end 5.08 -11.43)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -3.81 10.16)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -7.62 8.89 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -8.89 180)
+        (length 2.54)
+        (name "16" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 6.35 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -6.35 180)
+        (length 2.54)
+        (name "14" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 3.81 0)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -3.81 180)
+        (length 2.54)
+        (name "12" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 1.27 0)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -1.27 180)
+        (length 2.54)
+        (name "10" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -1.27 0)
+        (length 2.54)
+        (name "9" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 1.27 180)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -3.81 0)
+        (length 2.54)
+        (name "11" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 3.81 180)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -6.35 0)
+        (length 2.54)
+        (name "13" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 6.35 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -8.89 0)
+        (length 2.54)
+        (name "15" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 8.89 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+
+  (symbol "KH-1.27FH-2X10P-H4.3-SMT"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property
+      "Reference"
+      "U"
+      (at 0 16.51 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Value"
+      "KH-1.27FH-2X10P-H4.3-SMT"
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Footprint"
+      "EasyEDA:CONN-SMD_20P-P1.27_KINGHELM_KH-1.27FH-2X10P-H4.3-SMT"
+      (at 0 -19.05 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Datasheet"
+      "https://www.lcsc.com/datasheet/C2938399.pdf"
+      (at 0 -21.59 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "Manufacturer"
+      "kinghelm(金航标)"
+      (at 0 -24.13 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "MPN"
+      "KH-1.27FH-2X10P-H4.3-SMT"
+      (at 0 -26.67 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "LCSC Part"
+      "C2938399"
+      (at 0 -29.21 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (property
+      "ki_keywords"
+      "Female Headers"
+      (at 0 -31.75 0)
+      (hide yes)
+      (effects (font (size 1.27 1.27) ))
+    )
+    (symbol "KH-1.27FH-2X10P-H4.3-SMT_0_1"
+      (rectangle
+        (start -5.08 13.97)
+        (end 5.08 -13.97)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (circle
+        (center -3.81 12.70)
+        (radius 0.38)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+      (pin unspecified line
+        (at -7.62 11.43 0)
+        (length 2.54)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -11.43 180)
+        (length 2.54)
+        (name "20" (effects (font (size 1.27 1.27))))
+        (number "20" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 8.89 0)
+        (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -8.89 180)
+        (length 2.54)
+        (name "18" (effects (font (size 1.27 1.27))))
+        (number "18" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 6.35 0)
+        (length 2.54)
+        (name "5" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -6.35 180)
+        (length 2.54)
+        (name "16" (effects (font (size 1.27 1.27))))
+        (number "16" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 3.81 0)
+        (length 2.54)
+        (name "7" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -3.81 180)
+        (length 2.54)
+        (name "14" (effects (font (size 1.27 1.27))))
+        (number "14" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 1.27 0)
+        (length 2.54)
+        (name "9" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 -1.27 180)
+        (length 2.54)
+        (name "12" (effects (font (size 1.27 1.27))))
+        (number "12" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -1.27 0)
+        (length 2.54)
+        (name "11" (effects (font (size 1.27 1.27))))
+        (number "11" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 1.27 180)
+        (length 2.54)
+        (name "10" (effects (font (size 1.27 1.27))))
+        (number "10" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -3.81 0)
+        (length 2.54)
+        (name "13" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 3.81 180)
+        (length 2.54)
+        (name "8" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -6.35 0)
+        (length 2.54)
+        (name "15" (effects (font (size 1.27 1.27))))
+        (number "15" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 6.35 180)
+        (length 2.54)
+        (name "6" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -8.89 0)
+        (length 2.54)
+        (name "17" (effects (font (size 1.27 1.27))))
+        (number "17" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 8.89 180)
+        (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at -7.62 -11.43 0)
+        (length 2.54)
+        (name "19" (effects (font (size 1.27 1.27))))
+        (number "19" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line
+        (at 7.62 11.43 180)
+        (length 2.54)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
 )

@@ -3934,6 +3934,17 @@
 	)
 	(hierarchical_label "TO_BATT"
 		(shape input)
+		(at 167.64 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c9b095b-9dfd-4d75-a132-bbf702293b5a")
+	)
+	(hierarchical_label "TO_BATT"
+		(shape input)
 		(at 123.19 35.56 0)
 		(effects
 			(font
@@ -3942,17 +3953,6 @@
 			(justify left)
 		)
 		(uuid "76e4f897-b029-4c4c-9a96-a9ddbaa6f73c")
-	)
-	(hierarchical_label "VBATT"
-		(shape input)
-		(at 167.64 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "89c49868-f18a-4047-8d7b-6a387363284e")
 	)
 	(hierarchical_label "FROM_BUCK"
 		(shape input)

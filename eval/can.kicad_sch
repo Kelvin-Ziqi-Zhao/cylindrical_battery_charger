@@ -5,147 +5,6 @@
 	(uuid "1b1e355d-35df-49cb-a650-4bcec4dc535c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:TCAN1044VDRBRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -842,22 +701,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 148.59 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1c0096f-0b55-411f-a61e-cddfd840ad5f")
-	)
-	(wire
-		(pts
-			(xy 125.73 52.07) (xy 148.59 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec50ded-eefe-478f-a14a-42c130a77992")
-	)
 	(wire
 		(pts
 			(xy 95.25 54.61) (xy 102.87 54.61)
@@ -867,16 +710,6 @@
 			(type default)
 		)
 		(uuid "c5cc4975-91ce-4ef4-b544-ff05a2e143b1")
-	)
-	(wire
-		(pts
-			(xy 152.4 52.07) (xy 148.59 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a25f78-a173-4806-8010-b190f6a0e7cd")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
@@ -899,176 +732,6 @@
 			(justify right)
 		)
 		(uuid "6f7b276c-0832-4c9c-a8a3-122230c9a5d5")
-	)
-	(hierarchical_label "CAN_STB"
-		(shape input)
-		(at 152.4 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "832a930f-5607-4150-9def-b180f8f9091c")
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 148.59 54.61 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "248a4a80-6fa7-470d-a7ae-0f06739e4a30")
-		(property "Reference" "R13"
-			(at 151.13 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 151.13 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 148.59 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3dfdfdf4-024d-426c-9767-bf4bbd323e8c")
-		)
-		(pin "1"
-			(uuid "a64a05cf-8e6b-4d4e-bb94-0cbb3d8b1aa6")
-		)
-		(instances
-			(project "eval"
-				(path "/8b023652-20db-48ce-ad53-bc2d9a4e5dd4/6dc5225f-c89b-40d1-9470-7379c2fb3f04"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "EasyEDA:TCAN1044VDRBRQ1")
@@ -1598,7 +1261,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 148.59 57.15 0)
+		(at 125.73 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1609,7 +1272,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcf1b6d8-bbb3-430c-a7b6-cbfb4832b787")
 		(property "Reference" "#PWR056"
-			(at 148.59 63.5 0)
+			(at 132.08 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1620,17 +1283,18 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 148.59 60.96 0)
+			(at 129.54 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 57.15 0)
+			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1641,7 +1305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 57.15 0)
+			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1652,7 +1316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 148.59 57.15 0)
+			(at 125.73 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
